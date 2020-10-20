@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(17, 1fr);
+    gap: 2%;
+    font-size: small;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+.navcontact{
+    grid-column: 16;
+}
+.FB {
+    grid-column: 7;
+}
+.FB img{
+    width: 50%;
+}
+.IG {
+    grid-column: 8;
+}
+.IG img{
+    width: 50%;
+}

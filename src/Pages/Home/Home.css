@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Val";
+    src: url(../../assets/font/Valorant\ Font.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.home {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.intro{
+    grid-column: 1;
+    height: 100%;
+    
+}
+.introTxt {
+    margin-top: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+}
+
+.introTxt h1 {
+    text-transform: uppercase;
+    font-family: "Val";
+    font-size: 50px;
+    color: #BF4539;
+}
+.introTxt p {
+    color:#261417;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.introIll{
+    grid-column: 2 / span 2;
+    display: block;
+    background-image: url(../../assets/img/intro.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.introLayer{
+    height: 100%; 
+    background: rgba(115,47,47,0.25); 
+}
+.introIll h5{
+    position: relative;
+    top: -130%;
+    left: 5%;
+    font-size: 20em;
+    opacity: 0.4;
+    font-family: "Val";
+}
+
+.servicesBtn{
+    text-align: center;
+    color: #732F2F;
+    border: 5px solid #732F2F;
+    margin-bottom: 5%;
+    font-family: "Val";
+    font-size: 10px;
+    font-weight: bold;
+    transition: all 0.5s ease-out;
+}
+.servicesBtn:hover{
+    background-color: #732F2F;
+    border: 5px solid transparent;
+    color: #D9D8D7;
+    cursor: pointer;
+}
+.devisBtn{
+    text-align: center;
+    color: #BF4539;
+    font-size: 10px;
+    font-weight: bold;
+    border: 5px solid #BF4539;
+    font-family: "Val";
+    transition: all 0.5s ease-out;
+}
+.devisBtn:hover{
+    background-color: #BF4539;
+    border: 5px solid transparent;
+    color: #D9D8D7;
+    cursor: pointer;
+}

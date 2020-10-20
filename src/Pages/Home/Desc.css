@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Val";
+    src: url(../../assets/font/Valorant\ Font.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+.desc {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.descIll {
+    grid-column: 1;
+    background-image: url(../../assets/img/desc.jpg);
+    background-size: cover;
+}
+.descLayer{
+    height: 100%; 
+    background: rgba(115,47,47,0.25); 
+}
+.descTxt {
+    grid-column: 2 / span 2;
+}
+.descTitles {
+    text-align: left;
+    margin-top: 15%;
+    margin-left: 15%;
+    margin-right: 40%;
+}
+.descTitles h3{
+    font-family: 'Val';
+    font-size: 25px;
+    color: #BF4539;
+}
+.descTitles p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: #8C7F77;
+    letter-spacing: 0.1em;
+}
+.descDesc {
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 40%;
+    font-family: 'Montserrat', sans-serif;
+    color: #261417;
+}
+.descBtn {
+    text-align: center;
+    color: #BF4539;
+    width: 20%;
+    margin-left: 15%;
+    font-size: 10px;
+    font-weight: bold;
+    border: 5px solid #BF4539;
+    font-family: "Val";
+    transition: all 0.5s ease-out;
+}
+.descBtn:hover{
+    background-color: #BF4539;
+    border: 5px solid transparent;
+    color: #D9D8D7;
+    cursor: pointer;
+}
