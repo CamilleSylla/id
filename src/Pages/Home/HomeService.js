@@ -16,22 +16,36 @@ export default function HomeService() {
                 </div>
                 <div className="cardCont">
                 <div className="card">
-                    <p>01</p>
+                    <p className="cardNum">01</p>
                     <h1>Conception de site internet</h1>
+                    <p className="cardDesc"> 
+                    Nous créerons votre site internet comme si c’était le nôtre.
+                    Pour vous livrer un site web professionnel avec des 
+                    fonctionnalités uniques conçues spécialement pour 
+                    vous et votre projet.
+                    </p>
                 </div>
                 <div className="card">
-                    <p>02</p>
+                    <p className="cardNum">02</p>
                     <h1>Creation graphique</h1>
+                    <p className="cardDesc">
+                    Le visuel est le premier élément perçu par les clients.
+                    Grace à ses connaissancesen design, IconicDev établira
+                     pour vous, une charte graphique impactante a votre image.
+                    </p>
                 </div>
                 <div className="card">
-                    <p>03</p>
+                    <p className="cardNum">03</p>
                     <h1>assitance bureautique</h1>
+                    <p className="cardDesc">
+                        Simplifier votre quotidien et les taches bureautique
+                        en utilisant les bons outils. IconicDev etudira 
+                        vos besoin afin d'optimiser vos taches et donc rentabiliser
+                        votre temps. 
+
+                    </p>
                 </div>
             </div>
-            </div>
-            
-            <div className="home-img">
-
             </div>
         </div>
     )

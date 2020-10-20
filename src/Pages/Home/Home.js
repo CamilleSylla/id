@@ -1,4 +1,5 @@
 import React from 'react';
+import Arg from './Arg';
 import Desc from './Desc';
 
 
@@ -16,6 +17,7 @@ export default function Home () {
             <Intro/>
             <Desc/>
             <HomeService/>
+            <Arg/>
         </div>
     )
 }

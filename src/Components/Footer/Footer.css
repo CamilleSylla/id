@@ -1,0 +1,38 @@
+.footerInfo{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    overflow: hidden;
+}
+.footerTitle{
+    font-family: 'Val';
+    font-size: 30px;
+    color: #BF4539;
+}
+.footerAdresse{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.footerSocial{
+    display: grid;
+    text-align: right;
+    grid-template-columns: repeat(10, 1fr);
+}
+.footerSocial img{
+    margin-top: 100%;
+    width: 70%;
+}
+.bottomMenu{
+    border-top: 1px solid rgba(140, 127, 119, 0.2);
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    font-family: 'Montserrat', sans-serif;
+}
+.footerBtn{
+    grid-column: 9;
+    font-family: 'Val';
+    color: #BF4539;
+    border: 5px solid #BF4539;
+    padding: 5%;
+}

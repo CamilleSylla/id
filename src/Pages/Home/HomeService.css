@@ -1,15 +1,19 @@
 .home-service {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    background-image: url(../../assets/img/homedesc.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 135% 75%;
 }
 .cardCont {
     grid-column: 1 / span 2;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin-left: 10%;
+    gap: 5%;
 }
 .card {
-    margin-left: 50%;
-    grid-row: 2;
 }
 .card h1 {
     text-transform: uppercase;
@@ -17,8 +21,10 @@
     font-weight: bold;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
+    height: 50px;
+    color: #8C7F77;
 }
-.card p {
+.cardNum {
     text-transform: uppercase;
     font-size: 30px;
     text-align: left;
@@ -27,6 +33,11 @@
     background-color: #261417;
     color: #BF4539;
     font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.cardDesc{
+    margin-left: 15%;
+    text-align: left;
     font-family: 'Montserrat', sans-serif;
 }
 .home-desc {
@@ -54,11 +65,4 @@
     color: #8C7F77;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-}
-.home-img{
-    grid-column: 3;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 40% ;
-    background-image: url(../../assets/img/homedesc.svg);
 }

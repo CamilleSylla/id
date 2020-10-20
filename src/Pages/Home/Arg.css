@@ -1,0 +1,32 @@
+.arg {
+    background-color: #8C7F77;
+}
+.argTitle {
+    padding-top: 50px;
+    font-family: 'Val';
+    font-size: 35px;
+    color: #D9D8D7;
+}
+.argQuote{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #261417;
+}
+.argGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.argGrid h5{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.4em;
+    font-size: 20px;
+    color: #732F2F;
+}
+.argGrid p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #261417;
+    margin-left: 20%;
+    margin-right: 20%;
+}

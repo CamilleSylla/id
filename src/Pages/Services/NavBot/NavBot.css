@@ -1,0 +1,20 @@
+.navBot{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #BF4539;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+.navBot p{
+    transition: all 0.3s ease-out;
+    color: #D9D8D7;
+}
+.navBot p:hover{
+    color:white;
+}
