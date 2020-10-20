@@ -13,9 +13,7 @@ export default function Desc() {
             <div className="descTxt">
                 <div className="descTitles">
                     <h3>_   Nos Secteurs</h3>
-                    <p>Conception de site internet,
-                    Creation graphique, assistance
-                    bureautique...
+                    <p>Develeoppement Web, WebDesign, Graphisme...
                     </p>
                 </div>
                 <p className="descDesc">

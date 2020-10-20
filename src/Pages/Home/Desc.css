@@ -37,6 +37,7 @@
     font-weight: 900;
     color: #8C7F77;
     letter-spacing: 0.1em;
+    text-transform: uppercase;
 }
 .descDesc {
     text-align: left;
