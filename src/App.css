@@ -2,3 +2,19 @@
   text-align: center;
   background-color: #D9D8D7;
 }
+.item-appear,
+.item-enter {
+  opacity: 0;
+  z-index: 1;
+}
+.item-enter-active {
+  opacity: 1;
+  transition: opacity 300ms linear 150ms;
+}
+.item-exit {
+  opacity: 1;
+}
+.item-exit-active {
+  opacity: 0;
+  transition: opacity 150ms linear;
+}

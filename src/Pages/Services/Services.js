@@ -6,7 +6,7 @@ import Vitrine from './Vitrine/Vitrine';
 
 export default function Services () {
     return (
-        <div>
+        <div className="page">
             <Vitrine/>
             <NavBot/>
         </div>
