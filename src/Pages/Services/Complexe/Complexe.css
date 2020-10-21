@@ -6,3 +6,17 @@
     background-image: url(../../../assets/img/comp.jpg);
     background-size: cover;
 }
+.techno {
+    grid-column: 2;
+    text-align: center;
+}
+.techno-grid {
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5%;
+}
+.techno h6{
+    grid-column: span 3;
+    font-family: 'Montserrat', sans-serif;
+}

@@ -5,3 +5,16 @@
     background-image: url(../../../assets/img/graph.jpg);
     background-size: cover;
 }
+.techno {
+    grid-column: 2;
+    text-align: center;
+}
+.techno-grid {
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5%;
+}
+.techno img{
+    width: 50%;
+}

@@ -2,7 +2,7 @@ import React from 'react';
 
 import Arrow from '../../../assets/icon/g6.png'
 import Check from '../../../assets/icon/checked.svg'
-import NavBot from '../NavBot/NavBot';
+
 
 import './Supp.css'
 
@@ -14,7 +14,7 @@ export default function Supp() {
                 <div className="ecom-intro-text">
                     <h1>donner naissances a vos idees</h1>
                     <p>
-                    Pour les porteurs de projets avec un concept réalisable uniquement sur-mesure. 
+                        Pour les porteurs de projets avec un concept réalisable uniquement sur-mesure.
                     </p>
                     <div className="ecom-intro-icon">
                         <img src={Arrow} alt="arrow" />
@@ -95,35 +95,35 @@ export default function Supp() {
                                 mettrons à votre disposition.
                                 </p>
                         </div>
-
-                    </div>
-                    <div className="bref">
-
-                        <div className="bref-item">
-                            <img src={Check} alt="checked" />
-                            <p>Mettre en avant vos produits.</p>
-                        </div>
-                        <div className="bref-item">
-                            <img src={Check} alt="checked" />
-                            <p> Optimisé pour vos produits.</p>
-                        </div>
-                        <div className="bref-item">
-                            <img src={Check} alt="checked" />
-                            <p>Filtre performant.</p>
-                        </div>
-                        <div className="bref-item">
-                            <img src={Check} alt="checked" />
-                            <p> Paiement securisé.</p>
-                        </div>
-                        <div className="bref-item">
-                            <img src={Check} alt="checked" />
-                            <p>Cohérence graphique.</p>
+                        <div className="techno">
+                            <div className="techno-grid">
+                                <div className="bref-item">
+                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <p>Temps de chargement raccourcis</p>
+                                </div>
+                                <div className="bref-item">
+                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <p>Une vitrine adapter à tout écran</p>
+                                </div>
+                                <div className="bref-item">
+                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <p>Un design et une ergonimie moderne</p>
+                                </div>
+                                <div className="bref-item">
+                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <p>Une etudes de réferencement poussé</p>
+                                </div>
+                                <div className="bref-item">
+                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <p>Renforcera votre image de marque</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
             </div>
-            <NavBot />
+            
         </div>
     )
 }

@@ -1,6 +1,15 @@
 import React from 'react';
 
-
+import Html from '../../../assets/img/icons/html-5.svg'
+import Css from '../../../assets/img/icons/css.svg'
+import Js from '../../../assets/img/icons/javascript.svg'
+import Wp from '../../../assets/img/icons/wordpress.svg'
+import ReactJs from '../../../assets/img/icons/ReactJS.svg'
+import Git from '../../../assets/img/icons/github.svg'
+import Php from '../../../assets/img/icons/php.svg'
+import Elementor from '../../../assets/img/icons/elementor.svg'
+import Webpack from '../../../assets/img/icons/webpack.svg'
+import NodeJs from '../../../assets/img/icons/Node.svg'
 
 
 import Arrow from '../../../assets/icon/g6.png'
@@ -17,7 +26,7 @@ export default function Comp() {
                 <div className="ecom-intro-text">
                     <h1>donner naissances a vos idees</h1>
                     <p>
-                    Pour les porteurs de projets avec un concept réalisable uniquement sur-mesure. 
+                        Pour les porteurs de projets avec un concept réalisable uniquement sur-mesure.
                     </p>
                     <div className="ecom-intro-icon">
                         <img src={Arrow} alt="arrow" />
@@ -98,35 +107,34 @@ export default function Comp() {
                                 mettrons à votre disposition.
                                 </p>
                         </div>
-
-                    </div>
-                    <div className="bref">
-
-                        <div className="bref-item">
-                            <img src={Check} alt="checked" />
-                            <p>Mettre en avant vos produits.</p>
-                        </div>
-                        <div className="bref-item">
-                            <img src={Check} alt="checked" />
-                            <p> Optimisé pour vos produits.</p>
-                        </div>
-                        <div className="bref-item">
-                            <img src={Check} alt="checked" />
-                            <p>Filtre performant.</p>
-                        </div>
-                        <div className="bref-item">
-                            <img src={Check} alt="checked" />
-                            <p> Paiement securisé.</p>
-                        </div>
-                        <div className="bref-item">
-                            <img src={Check} alt="checked" />
-                            <p>Cohérence graphique.</p>
+                        <div className="techno">
+                            <div className="techno-grid">
+                                <div className="bref-item">
+                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <p>Temps de chargement raccourcis</p>
+                                </div>
+                                <div className="bref-item">
+                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <p>Une vitrine adapter à tout écran</p>
+                                </div>
+                                <div className="bref-item">
+                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <p>Un design et une ergonimie moderne</p>
+                                </div>
+                                <div className="bref-item">
+                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <p>Une etudes de réferencement poussé</p>
+                                </div>
+                                <div className="bref-item">
+                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <p>Renforcera votre image de marque</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
             </div>
-            <NavBot />
         </div>
     )
 }

@@ -1,6 +1,6 @@
 .home-service {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     background-image: url(../../assets/img/homedesc.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -36,7 +36,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 .cardDesc{
-    margin-left: 15%;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
 }

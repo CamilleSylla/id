@@ -3,6 +3,18 @@ import React from 'react';
 
 import './Vitrine.css'
 
+import Html from '../../../assets/img/icons/html-5.svg'
+import Css from '../../../assets/img/icons/css.svg'
+import Js from '../../../assets/img/icons/javascript.svg'
+import Wp from '../../../assets/img/icons/wordpress.svg'
+import ReactJs from '../../../assets/img/icons/ReactJS.svg'
+import Git from '../../../assets/img/icons/github.svg'
+import Php from '../../../assets/img/icons/php.svg'
+import Elementor from '../../../assets/img/icons/elementor.svg'
+import Webpack from '../../../assets/img/icons/webpack.svg'
+import NodeJs from '../../../assets/img/icons/Node.svg'
+import Boots from '../../../assets/img/icons/bootstrap.svg'
+import Vba from '../../../assets/img/icons/VBA.svg'
 
 import Arrow from '../../../assets/icon/g6.png'
 import Check from '../../../assets/icon/checked.svg'
@@ -42,7 +54,7 @@ export default function Vitrine() {
                            </p>
                     <div className="argumentsGrid">
                         <div className="arguments">
-                            
+
                             <h5>
                                 Ne laissez pas votre marque ressembler a celle
                                 de vos concurrents
@@ -105,35 +117,35 @@ export default function Vitrine() {
                                 connaitre votre projet.
                                 </p>
                         </div>
+                        <div className="techno">
+                            <div className="techno-grid">
+                                <div className="bref-item">
+                                    <img src={Check} alt="checked" style={{ width: "15%"}} />
+                                    <p>Temps de chargement raccourcis</p>
+                                </div>
+                                <div className="bref-item">
+                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <p>Une vitrine adapter à tout écran</p>
+                                </div>
+                                <div className="bref-item">
+                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <p>Un design et une ergonimie moderne</p>
+                                </div>
+                                <div className="bref-item">
+                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <p>Une etudes de réferencement poussé</p>
+                                </div>
+                                <div className="bref-item">
+                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <p>Renforcera votre image de marque</p>
+                                </div>
+                            </div>
+                        </div>
 
-                    </div>
-                    <div className="bref">
-                        
-                        <div className="bref-item">
-                        <img src={Check} alt="checked"/>
-                            <p>Temps de chargement raccourcis</p>
-                        </div>
-                        <div className="bref-item">
-                        <img src={Check} alt="checked"/>
-                            <p>Une vitrine adapter à tout écran</p>
-                        </div>
-                        <div className="bref-item">
-                        <img src={Check} alt="checked"/>
-                            <p>Un design et une ergonimie moderne</p>
-                        </div>
-                        <div className="bref-item">
-                        <img src={Check} alt="checked"/>
-                            <p>Une etudes de réferencement poussé</p>
-                        </div>
-                        <div className="bref-item">
-                        <img src={Check} alt="checked"/>
-                            <p>Renforcera votre image de marque</p>
-                        </div>
                     </div>
                 </div>
 
             </div>
-            <NavBot/>
         </div>
     )
 }

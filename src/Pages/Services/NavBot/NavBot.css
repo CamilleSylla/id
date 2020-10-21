@@ -10,12 +10,17 @@
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
+    opacity: 0.2;
+    transition: all 0.3s ease-out;
+}
+.navBot:hover{
+    opacity: 1;
 }
 .navBot p{
     transition: all 0.3s ease-out;
     color: #D9D8D7;
     text-decoration: none;
+    
 }
 .navBot p:hover{
-    color:white;
 }

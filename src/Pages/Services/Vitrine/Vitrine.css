@@ -1,6 +1,4 @@
-.vitrine {
-    
-}
+
 .vitrine-intro {
     display: grid;
     height: 100vh;
@@ -91,16 +89,29 @@
     gap: 5%;
 }
 .bref-item{
+    grid-column: span 3;
     display: inline-flex;
     padding: 3%;
     background-color: #EAF2AE;
     border-radius: 5px;
 }
-.bref-item img{
-    width: 25%;
-}
 .bref-item p{
     font-size: 15px;
     color: #32BA7C;
     margin-left: 5%;
+}
+
+
+.techno {
+    grid-column: 2;
+    text-align: center;
+}
+.techno-grid {
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5%;
+}
+.techno img{
+    width: 50%;
 }
