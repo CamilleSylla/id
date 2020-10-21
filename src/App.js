@@ -16,7 +16,8 @@ import {
 import Vitrine from './Pages/Services/Vitrine/Vitrine';
 import Ecom from './Pages/Services/Ecommerce/Ecom';
 import Comp from './Pages/Services/Complexe/Complexe';
-
+import Graph from './Pages/Services/Graph/Graph';
+import Supp from './Pages/Services/Supp/Supp'
 function App() {
   return (
     <div className="App">
@@ -36,6 +37,8 @@ function App() {
         <Route path={`${url}/vitrine`} component={Vitrine} />
         <Route path={`${url}/ecommerce`} component={Ecom} />
         <Route path={`${url}/complexe`} component={Comp} />
+        <Route path={`${url}/graphisme`} component={Graph} />
+        <Route path={`${url}/bureautique`} component={Supp} />
       </>
     )}/>
             <Footer />
