@@ -9,11 +9,13 @@ import Nav from './Components/Nav/Nav'
 //rooter
 import { BrowserRouter as Rooter, Route, Switch } from 'react-router-dom';
 import Footer from './Components/Footer/Footer';
-import Services from './Pages/Services/Services';
 import {
   CSSTransition,
   TransitionGroup,
 } from 'react-transition-group';
+import Vitrine from './Pages/Services/Vitrine/Vitrine';
+import Ecom from './Pages/Services/Ecommerce/Ecom';
+import Comp from './Pages/Services/Complexe/Complexe';
 
 function App() {
   return (
@@ -28,7 +30,14 @@ function App() {
         >
           <Switch location={location}>
             <Route exact path='/'  component={Home} />
-            <Route path='/services' component={Services} />
+            <Route path='/services' render={({ match: { url } }) => (
+      <>
+        <Route path={`${url}/`} component={Vitrine} exact />
+        <Route path={`${url}/vitrine`} component={Vitrine} />
+        <Route path={`${url}/ecommerce`} component={Ecom} />
+        <Route path={`${url}/complexe`} component={Comp} />
+      </>
+    )}/>
             <Footer />
           </Switch>
         </CSSTransition>

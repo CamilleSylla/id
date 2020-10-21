@@ -24,7 +24,7 @@ export default function Nav() {
             </Link>
             <Link
                 style={{ textDecoration: 'none', color: '#261417' }}
-                to='/services'
+                to='/services/vitrine'
             >
                 <p>Services</p>
             </Link>

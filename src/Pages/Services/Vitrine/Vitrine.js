@@ -6,6 +6,7 @@ import './Vitrine.css'
 
 import Arrow from '../../../assets/icon/g6.png'
 import Check from '../../../assets/icon/checked.svg'
+import NavBot from '../NavBot/NavBot';
 
 export default function Vitrine() {
 
@@ -132,6 +133,7 @@ export default function Vitrine() {
                 </div>
 
             </div>
+            <NavBot/>
         </div>
     )
 }

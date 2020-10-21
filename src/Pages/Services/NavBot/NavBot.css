@@ -14,6 +14,7 @@
 .navBot p{
     transition: all 0.3s ease-out;
     color: #D9D8D7;
+    text-decoration: none;
 }
 .navBot p:hover{
     color:white;

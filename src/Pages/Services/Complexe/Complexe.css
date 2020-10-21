@@ -1,0 +1,8 @@
+
+.comp-intro-img{
+    grid-column: 2;
+    height: 100vh;
+    background-position: center;
+    background-image: url(../../../assets/img/comp.jpg);
+    background-size: cover;
+}
