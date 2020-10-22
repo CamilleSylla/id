@@ -11,13 +11,14 @@
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: minmax(100px, 40%)
     
 }
 .contact-form {
     grid-column: 2;
+    grid-row: 2;
     background-color: #D9D8D7;
     display: block;
-    border-radius: 10px;
 }
 .input-fields {
     display: grid;
@@ -33,10 +34,16 @@
 .input-fields input{
     background-color: #D9D8D7;
     border-style: none;
-    border: 1px solid #bf44396c;
+    border-bottom: 3px solid  #2c2b2a27;
+    box-sizing: border-box;
+    transition: ease 0.5s;
+}
+.input-fields .input:focus{
+    border-bottom: 3px solid #bf4439fd;
 }
 .input-fields .input{
     height: 30px;
+    font-family: 'Montserrat', sans-serif;
 }
 .msg {
     padding-bottom: 100px;
