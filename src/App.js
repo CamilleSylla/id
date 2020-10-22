@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 
 // Pages
@@ -19,10 +19,18 @@ import Comp from './Pages/Services/Complexe/Complexe';
 import Graph from './Pages/Services/Graph/Graph';
 import Supp from './Pages/Services/Supp/Supp'
 import NavBot from './Pages/Services/NavBot/NavBot';
+import Contact from './Pages/Contact/Contact';
 function App() {
+
+  const [state, setState] = useState({show : false});
+  let Modal
+  if ( state.show === true) {
+    Modal = <Contact/>
+  }
+
   return (
     <div className="App">
-      <Nav />
+      <Nav show={setState}/>
       <Route render={({location}) => (
         <TransitionGroup>
         <CSSTransition
@@ -48,6 +56,7 @@ function App() {
         </CSSTransition>
       </TransitionGroup>
       )} />
+      {Modal}
       <Footer/>
     </div>
   );

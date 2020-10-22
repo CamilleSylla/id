@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 import FB from '../../assets/icon/fb.svg'
 import IG from '../../assets/icon/ig.svg'
 
-export default function Nav() {
+export default function Nav( { show }) {
 
     return (
 
@@ -28,12 +28,9 @@ export default function Nav() {
             >
                 <p>Services</p>
             </Link>
-            <Link
-                style={{ textDecoration: 'none', color: '#261417' }}
-                to='/'
-            >
-                <p>Contact</p>
-            </Link>
+
+                <p onClick={ () => show({show : true})}>Contact</p>
+
             <div className="FB">
                 <img src={FB} alt="facebook" />
             </div>

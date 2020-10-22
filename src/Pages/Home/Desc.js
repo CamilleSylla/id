@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './Desc.css'
 
@@ -24,9 +25,11 @@ export default function Desc() {
                     trends actuelles ainsi que personnifier.<br /><br />
                     N'attendez plus pour vous brancher au futur.
                 </p>
-                <div className="descBtn">
-                    <h2>Me Connecter</h2>
-                </div>
+                <Link to="/services/vitrine" style={{textDecoration: "none"}}  >
+                    <div className="descBtn">
+                        <h2>Me Connecter</h2>
+                    </div>
+                </Link>
             </div>
         </div>
     )

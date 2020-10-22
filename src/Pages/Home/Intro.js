@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Intro () {
 
@@ -11,9 +12,11 @@ export default function Intro () {
                     <p>Franchissez le cap du digital et envahissez 
                         un monde ou les limites ne sont qu'imaginaire...
                     </p>
+                    <Link to="/services/vitrine" style={{textDecoration: "none"}}>
                     <div className="servicesBtn">
                         <h2>Services</h2>
                     </div>
+                    </Link>
                     <div className="devisBtn">
                         <h2>Devis Gratuit</h2>
                     </div>

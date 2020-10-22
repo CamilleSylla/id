@@ -6,7 +6,7 @@ export default function NavBot() {
 
     return (
         <div className="navBot">
-            <p>
+            <p> 
                 <NavLink 
                 to="/services/vitrine"
                 activeStyle={{
@@ -20,7 +20,7 @@ export default function NavBot() {
             </p>
             <p>
                 <NavLink 
-                to="/services/ecommerce"
+                to="/services/ecommerce" 
                 activeStyle={{
                     fontWeight: "bold",
                     color: "#261417"
