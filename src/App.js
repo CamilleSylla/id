@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import './App.css';
 
 // Pages
@@ -22,42 +22,46 @@ import NavBot from './Pages/Services/NavBot/NavBot';
 import Contact from './Pages/Contact/Contact';
 function App() {
 
-  const [state, setState] = useState({show : false});
+  const [state, setState] = useState(
+    {
+      show: false
+    }
+  );
   let Modal
-  if ( state.show === true) {
-    Modal = <Contact/>
+  if (state.show === true) {
+    Modal = <Contact show={setState} />
   }
 
   return (
     <div className="App">
-      <Nav show={setState}/>
-      <Route render={({location}) => (
+      <Nav show={setState} />
+      <Route render={({ location }) => (
         <TransitionGroup>
-        <CSSTransition
-        key={location.key}
-          timeout={450}
-          classNames="item"
-        >
-          <Switch location={location}>
-            <Route exact path='/'  component={Home} />
-            <Route path='/services' render={({ match: { url } }) => (
-      <>
-        <Route path={`${url}/`} component={Vitrine} exact />
-        <Route path={`${url}/vitrine`} component={Vitrine} />
-        <Route path={`${url}/ecommerce`} component={Ecom} />
-        <Route path={`${url}/complexe`} component={Comp} />
-        <Route path={`${url}/graphisme`} component={Graph} />
-        <Route path={`${url}/bureautique`} component={Supp} />
-        <NavBot />
-      </>
-    )}/>
-            <Footer />
-          </Switch>
-        </CSSTransition>
-      </TransitionGroup>
+          <CSSTransition
+            key={location.key}
+            timeout={450}
+            classNames="item"
+          >
+            <Switch location={location}>
+              <Route exact path='/' component={Home} />
+              <Route path='/services' render={({ match: { url } }) => (
+                <>
+                  <Route path={`${url}/`} component={Vitrine} exact />
+                  <Route path={`${url}/vitrine`} component={Vitrine} />
+                  <Route path={`${url}/ecommerce`} component={Ecom} />
+                  <Route path={`${url}/complexe`} component={Comp} />
+                  <Route path={`${url}/graphisme`} component={Graph} />
+                  <Route path={`${url}/bureautique`} component={Supp} />
+                  <NavBot />
+                </>
+              )} />
+              <Footer />
+            </Switch>
+          </CSSTransition>
+        </TransitionGroup>
       )} />
       {Modal}
-      <Footer/>
+      <Footer />
     </div>
   );
 }
