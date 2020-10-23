@@ -5,39 +5,46 @@ import React from 'react';
 import './Nav.css'
 
 //rooter
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 //assets
 import FB from '../../assets/icon/fb.svg'
 import IG from '../../assets/icon/ig.svg'
 
-export default function Nav( { show }) {
+export default function Nav({ show }) {
 
     return (
 
         <div className="navbar">
-            <Link
-                style={{ textDecoration: 'none', color: '#261417' }}
-                to='/'
-            >
-                <p >Accueil</p>
-            </Link>
-            <Link
-                style={{ textDecoration: 'none', color: '#261417' }}
-                to='/services/vitrine'
-            >
-                <p>Services</p>
-            </Link>
+            <div className="nav-page">
+                <NavLink className="nav-link"
+                    exact
+                    activeStyle={{
+                        color: "#261417"
+                    }}
+                    to='/'
+                >
+                    <p >Accueil</p>
+                </NavLink>
+                <NavLink className="nav-link"
+                    activeStyle={{
+                        color: "#261417"
+                    }}
+                    to='/services/vitrine'
+                >
+                    <p>Services</p>
+                </NavLink>
 
-                <p onClick={ () => show({show : true})}>Contact</p>
-
-            <div className="FB">
-                <img src={FB} alt="facebook" />
+                <p className="nav-contact" onClick={() => show({ show: true })}>Contact</p>
             </div>
-            <div className="IG">
-                <img src={IG} alt="facebook" />
+            <div className="nav-icons">
+                <div className="FB">
+                    <img src={FB} alt="facebook" />
+                </div>
+                <div className="IG">
+                    <img src={IG} alt="facebook" />
+                </div>
             </div>
-
 
 
         </div>

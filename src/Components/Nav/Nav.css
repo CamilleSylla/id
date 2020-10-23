@@ -4,28 +4,54 @@
 .navbar {
     position: fixed;
     top: 0;
-    height: 70px;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(17, 1fr);
-    gap: 2%;
+    grid-template-columns: 1fr 2fr;
     font-size: small;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Val', sans-serif;
     font-weight: bold;
-    letter-spacing: 0.1em;
+    color: #BF4539;
+    z-index:5;
 }
-.navcontact{
-    grid-column: 16;
+.navbar a.nav-link {
+    letter-spacing: 0.2em;
+    cursor: pointer;
+    text-decoration: none;
+    color: #BF4539;
+    transition: ease-in-out 0.5s;
+}
+.nav-page{
+    display: grid;
+    width: 100%;
+    letter-spacing: 0.2em;
+    grid-template-columns: repeat(3, 1fr);
+    transition: ease-in-out 0.5s;
+    border-bottom: 5px solid rgba(191, 69, 57, 0.05);
+}
+.nav-page:hover{
+    background-color:#D9D8D7;
+    color: #BF4539;
+    border-bottom: 5px solid rgba(191, 69, 57, 1);
+}
+.nav-contact {
+    cursor: pointer; 
+}
+.nav-icons {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
 }
 .FB {
-    grid-column: 7;
-}
-.FB img{
-    width: 50%;
-}
-.IG {
+    display: block;
     grid-column: 8;
 }
+.FB img{
+    width: 30%;
+}
+.IG {
+    display: block;
+    grid-column: 9;
+}
 .IG img{
-    width: 50%;
+    width: 30%;
 }
