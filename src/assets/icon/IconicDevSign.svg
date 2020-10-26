@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="IconicDevSign.svg"
+   id="svg59"
+   xml:space="preserve"
+   style="enable-background:new 0 0 841.9 595.3;"
+   viewBox="0 0 841.9 595.3"
+   y="0px"
+   x="0px"
+   version="1.1"><metadata
+   id="metadata65"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs63">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	</defs><sodipodi:namedview
+   inkscape:current-layer="svg59"
+   inkscape:window-maximized="1"
+   inkscape:window-y="-8"
+   inkscape:window-x="-8"
+   inkscape:cy="435.51219"
+   inkscape:cx="588.94984"
+   inkscape:zoom="0.64"
+   showgrid="false"
+   id="namedview61"
+   inkscape:window-height="837"
+   inkscape:window-width="1600"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0"
+   guidetolerance="10"
+   gridtolerance="10"
+   objecttolerance="10"
+   borderopacity="1"
+   bordercolor="#666666"
+   pagecolor="#ffffff" />
+<style
+   id="style2"
+   type="text/css">
+	.st0{fill:#A5177E;}
+	.st1{fill:#22254F;}
+	.st2{fill:url(#SVGID_1_);}
+</style>
+
+<g
+   transform="translate(292.1875,21.875)"
+   id="Calque_3">
+	<polygon
+   style="fill:#bf4539;fill-opacity:1"
+   id="polygon32"
+   points="63.7,362.1 38.9,347.8 38.9,217.4 63.6,203.2 "
+   class="st0" />
+</g>
+<g
+   transform="translate(292.1875,21.875)"
+   id="Calque_2">
+	<linearGradient
+   y2="318.76459"
+   x2="189.877"
+   y1="234.44971"
+   x1="135.4444"
+   gradientUnits="userSpaceOnUse"
+   id="SVGID_1_">
+		<stop
+   id="stop35"
+   style="stop-color:#bf4539;stop-opacity:1"
+   offset="0" />
+		
+		
+		
+		
+		
+		
+		
+		
+		<stop
+   id="stop53"
+   style="stop-color:#732f2f;stop-opacity:1"
+   offset="1" />
+	</linearGradient>
+	<polygon
+   style="fill:url(#SVGID_1_)"
+   id="polygon56"
+   points="115.2,221.8 115.2,391.8 89.4,376.9 89.4,188.3 139.5,159.3 240.2,217.4 240.2,333.7 139.5,391.8 139.5,362.4 214.9,318.9 214.9,231.5 139.3,187.8 115.2,201.7 "
+   class="st2" />
+</g>
+</svg>

@@ -5,17 +5,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 .home {
-    height: 100vh;
+    height: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 .intro{
     grid-column: 1;
-    height: 100%;
+    height: auto;
+    padding-bottom: 8%;
+}
+.intro img{
+    margin-top: 3%;
+    width: 60%;
     
 }
 .introTxt {
-    margin-top: 25%;
+    margin-top: -12%;
     margin-left: 20%;
     margin-right: 20%;
     text-align: left;
@@ -34,7 +39,7 @@
 
 .introIll{
     grid-column: 2 / span 2;
-    display: block;
+    display: flex;
     background-image: url(../../assets/img/intro.jpg);
     background-size: cover;
     overflow: hidden;
@@ -44,10 +49,11 @@
     background: rgba(115,47,47,0.25); 
 }
 .introIll h5{
-    position: relative;
-    top: -130%;
-    left: 5%;
-    font-size: 20em;
+    display: flex;
+    height: 100%;
+    text-align: center;
+    width: 100vw;
+    font-size: 10em;
     opacity: 0.4;
     font-family: "Val";
 }

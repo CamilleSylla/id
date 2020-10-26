@@ -3,13 +3,14 @@ import { Link } from 'react-router-dom';
 
 
 import './Home.css'
-
+import Sign from '../../assets/icon/IconicDevSign.svg';
 export default function Intro ({ show }) {
     
     return (
 
         <div className="home">
             <div className="intro">
+                <img src={Sign} alt="Signature"/>
                 <div className="introTxt">
                     <h1>votre solution web adapter a votre besoin</h1>
                     <p>Franchissez le cap du digital et envahissez 
@@ -27,9 +28,9 @@ export default function Intro ({ show }) {
             </div>
             <div className="introIll">
                 <div className="introLayer">
-                        
-                </div>
                 <h5>.Build</h5>
+                </div>
+                
             </div>
         </div>
     )
