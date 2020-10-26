@@ -55,3 +55,13 @@
 .IG img{
     width: 30%;
 }
+@media (max-width: 768px) {
+    .navbar {
+        display: block;
+        background-color: #D9D8D7;
+        border-bottom: 5px solid rgba(191, 69, 57, 1);
+    }
+    .nav-icons {
+        display: none;
+    }
+}

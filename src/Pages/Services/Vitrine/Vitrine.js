@@ -2,23 +2,8 @@ import React from 'react';
 
 
 import './Vitrine.css'
-
-import Html from '../../../assets/img/icons/html-5.svg'
-import Css from '../../../assets/img/icons/css.svg'
-import Js from '../../../assets/img/icons/javascript.svg'
-import Wp from '../../../assets/img/icons/wordpress.svg'
-import ReactJs from '../../../assets/img/icons/ReactJS.svg'
-import Git from '../../../assets/img/icons/github.svg'
-import Php from '../../../assets/img/icons/php.svg'
-import Elementor from '../../../assets/img/icons/elementor.svg'
-import Webpack from '../../../assets/img/icons/webpack.svg'
-import NodeJs from '../../../assets/img/icons/Node.svg'
-import Boots from '../../../assets/img/icons/bootstrap.svg'
-import Vba from '../../../assets/img/icons/VBA.svg'
-
 import Arrow from '../../../assets/icon/g6.png'
 import Check from '../../../assets/icon/checked.svg'
-import NavBot from '../NavBot/NavBot';
 
 export default function Vitrine() {
 

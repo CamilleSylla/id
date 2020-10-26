@@ -8,42 +8,42 @@ export default function NavBot() {
         <div className="navBot">
             <p> 
                 <NavLink 
+                className="bottom-nav"
                 to="/services/vitrine"
                 activeStyle={{
                     fontWeight: "bold",
                     color: "#261417"
                   }}
-                  style={{textDecoration: "none", color:" #D9D8D7"}}
                 >
                     Site Vitrine
                 </NavLink>
             </p>
             <p>
                 <NavLink 
+                className="bottom-nav"
                 to="/services/ecommerce" 
                 activeStyle={{
                     fontWeight: "bold",
                     color: "#261417"
-                  }}
-                style={{textDecoration: "none", color:" #D9D8D7"}}>
+                  }}>
                     Site E-Commerce
                 </NavLink>
             </p>
             <p>
                 <NavLink 
+                className="bottom-nav"
                 to="/services/complexe"
                 activeStyle={{
                     fontWeight: "bold",
                     color: "#261417"
-                  }}
-                style={{textDecoration: "none", color:" #D9D8D7"}}>
+                  }}>
                     Solution Web Complexe
                 </NavLink>
             </p>
             <p>
                 <NavLink 
+                className="bottom-nav"
                 to="/services/graphisme"
-                style={{textDecoration: "none", color:" #D9D8D7"}}
                 activeStyle={{
                     fontWeight: "bold",
                     color: "#261417"
@@ -53,8 +53,8 @@ export default function NavBot() {
             </p>
             <p>
                 <NavLink 
+                className="bottom-nav"
                 to="/services/bureautique"
-                style={{textDecoration: "none", color:" #D9D8D7"}}
                 activeStyle={{
                     fontWeight: "bold",
                     color: "#261417"

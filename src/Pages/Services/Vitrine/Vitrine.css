@@ -115,3 +115,56 @@
 .techno img{
     width: 50%;
 }
+@media (max-width: 768px) {
+    .vitrine-intro {
+        display: block;
+        height: auto;
+    }
+    .vitrine-intro-img{
+        display: none;
+    }
+    .vitrine-intro-text{
+        width: 100%;
+        text-align: center;
+    }
+    .vitrine-intro-text h1{
+        margin: 5%;
+        padding-top: 40%;
+    }
+    .vitrine-intro-icon {
+        display: none;
+    }
+    .vitrine-intro-text p {
+        color:#261417;
+        margin: 5%;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+    .vitrine-desc-txt{
+        margin: 5%;
+        text-align: center;
+    }
+    .arguments{
+        border-right: 0px solid rgba(140, 127, 119, 0.2);
+    }
+    .argumentsGrid {
+        display: block;
+    }
+    .techno {
+        margin: 0;
+        text-align: center;
+        
+    }
+    .techno-grid {
+        margin-left: 0%;
+        display: block;
+        width: 100%;
+    }
+    .bref-item{
+        display: block;
+        margin-bottom: 5%;
+        padding: 3%;
+        background-color: #EAF2AE;
+        border-radius: 5px;
+    }
+}

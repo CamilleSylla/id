@@ -1,6 +1,4 @@
-.ecom {
-    
-}
+
 .ecom-intro {
     display: grid;
     height: 100vh;
@@ -62,58 +60,4 @@
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
 }
-.argumentsGrid {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-}
-.arguments{
-    border-right: 2px solid rgba(140, 127, 119, 0.2);
-}
-.arguments h5 {
-    margin-right: 20px;
-    font-family: 'Val';
-    font-size: 24px;
-    color: #BF4539;
-}
-.arguments p {
-    font-family: 'Montserrat', sans-serif;
-    margin-right: 20px;
-    font-size: 16px;
-    text-align: justify;
-    color:#261417;
-}
-.bref {
-    margin-top: 75px;
-    margin-bottom: 50px;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    font-family: 'Montserrat', sans-serif;
-    gap: 5%;
-}
-.bref-item{
-    display: inline-flex;
-    padding: 3%;
-    background-color: #EAF2AE;
-    border-radius: 5px;
-}
-.bref-item img{
-    width: 25%;
-}
-.bref-item p{
-    font-size: 15px;
-    color: #32BA7C;
-    margin-left: 5%;
-}
-.techno {
-    grid-column: 2;
-    text-align: center;
-}
-.techno-grid {
-    margin-left: 20%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 5%;
-}
-.techno img{
-    width: 50%;
-}
+
