@@ -30,6 +30,7 @@
     text-align: left;
     font-family: "Val";
     color: #bf4439;
+    
 }
 .input-fields .input{
     background-color: #D9D8D7;
@@ -86,4 +87,31 @@
 .form-btn:hover {
     background-color: #bf4439;
     color:  #D9D8D7;
+}
+@media (max-width: 768px) {
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: minmax(100px, 40%)
+    }
+    .contact-form {
+        grid-column: 2;
+        grid-row: 2;
+        background-color: #D9D8D7;
+        display: block;
+    }
+    .form-btn {
+        margin-top: 13%;
+        font-size: small;
+    }
+    .input-fields{
+        margin: 0;
+    }
+    .input-fields img {
+        width: 10%;
+        }
+        .contact-form {
+            padding: 5%;
+        }
 }
