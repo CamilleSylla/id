@@ -6,7 +6,7 @@ import IG from '../../assets/icon/ig.svg'
 
 import './Footer.css'
 
-export default function Footer () {
+export default function Footer ({ show }) {
 
     return (
         <div className="footer">
@@ -41,7 +41,7 @@ export default function Footer () {
                 <p>
                     Mentions Légales
                 </p>
-                <p className='footerBtn'> Devis Gratuit</p>
+                <p className='footerBtn' onClick={ () => show({show: true})}> Devis Gratuit</p>
             </div>
         </div>
     )

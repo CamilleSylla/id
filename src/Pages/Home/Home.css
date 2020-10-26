@@ -24,7 +24,7 @@
 .introTxt h1 {
     text-transform: uppercase;
     font-family: "Val";
-    font-size: 50px;
+    font-size: 300%;
     color: #BF4539;
 }
 .introTxt p {
@@ -82,4 +82,32 @@
     border: 5px solid transparent;
     color: #D9D8D7;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .home{
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        overflow: hidden;
+    }
+    .introTxt h1 {
+        font-size: 300%;
+        text-align: center;
+    }
+    .introIll{
+        display: none;
+    }
+    .introTxt p {
+        text-align: center;
+        margin-bottom: 30%;
+    }
+    .servicesBtn {
+        margin-bottom: 5%;
+        cursor: pointer;
+    }
+    .devisBtn{
+        margin-bottom: 15%;
+        cursor: pointer;
+    }
 }

@@ -28,7 +28,7 @@
 }
 .descTitles h3{
     font-family: 'Val';
-    font-size: 25px;
+    font-size: 150%;
     color: #BF4539;
 }
 .descTitles p{
@@ -62,4 +62,52 @@
     border: 5px solid transparent;
     color: #D9D8D7;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .desc {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: #732F2F;
+    }
+    .descIll {
+        display: none;
+    }
+    .descTitles {
+        text-align: center;
+        margin-top: 0%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .descTitles h3{
+        color: #D9D8D7;
+        font-size: 200%;
+    }
+    .descDesc {
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 100%;
+        font-family: 'Montserrat', sans-serif;
+        color: #261417;
+    }
+    .descBtn {
+        text-align: center;
+        color: #D9D8D7;
+        width: auto;
+        margin-left: 15%;
+        margin-right: 15%;
+        font-size: 70%;
+        font-weight: bold;
+        border: 5px solid #D9D8D7;
+        font-family: "Val";
+        margin-bottom: 5%;
+    }
+    .descTitles p{
+        color: #BF4539;
+        font-size: 150%;
+    }
+    .descDesc {
+        color: #D9D8D7;
+    }
 }

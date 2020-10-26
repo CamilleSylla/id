@@ -15,7 +15,7 @@ export default function HomeService() {
                     </div>
                 </div>
                 <div className="cardCont">
-                <div className="card">
+                <div className="card" id="item1">
                     <p className="cardNum">01</p>
                     <h1>Conception de site internet</h1>
                     <p className="cardDesc"> 
@@ -25,7 +25,7 @@ export default function HomeService() {
                     vous et votre projet.
                     </p>
                 </div>
-                <div className="card">
+                <div className="card" id="item2">
                     <p className="cardNum">02</p>
                     <h1>Creation graphique</h1>
                     <p className="cardDesc">
@@ -34,7 +34,7 @@ export default function HomeService() {
                      pour vous, une charte graphique impactante a votre image.
                     </p>
                 </div>
-                <div className="card">
+                <div className="card" id="item3">
                     <p className="cardNum">03</p>
                     <h1>assitance bureautique</h1>
                     <p className="cardDesc">

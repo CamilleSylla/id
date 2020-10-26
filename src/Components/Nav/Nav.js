@@ -12,7 +12,6 @@ import FB from '../../assets/icon/fb.svg'
 import IG from '../../assets/icon/ig.svg'
 
 export default function Nav({ show }) {
-
     return (
 
         <div className="navbar">
@@ -30,7 +29,7 @@ export default function Nav({ show }) {
                     activeStyle={{
                         color: "#261417"
                     }}
-                    to='/services/vitrine'
+                    to='/services'
                 >
                     <p>Services</p>
                 </NavLink>

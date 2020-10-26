@@ -35,4 +35,42 @@
     color: #BF4539;
     border: 5px solid #BF4539;
     padding: 5%;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .footerInfo{
+        display: grid;
+        grid-template-columns: auto;
+        overflow: hidden;
+    }
+    .footerTitle{
+        font-size: 150%;
+    }
+    .footerAdresse{
+        text-align: center;
+        margin: 0;
+    }
+    .footerSocial{
+        display: grid;
+        text-align: right;
+        grid-template-columns: repeat(10, 1fr);
+    }
+    .footerSocial img{
+        grid-template-columns: 8;
+        margin-top: 0;
+    }
+    .bottomMenu{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        font-family: 'Montserrat', sans-serif;
+    }
+    .footerBtn{
+        grid-column: 2 / span 2 ;
+        grid-row: 2;
+        
+        font-family: 'Val';
+        color: #BF4539;
+        border: 5px solid #BF4539;
+        padding: 5%;
+    }
 }

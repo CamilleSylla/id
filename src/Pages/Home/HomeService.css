@@ -13,8 +13,6 @@
     margin-left: 10%;
     gap: 5%;
 }
-.card {
-}
 .card h1 {
     text-transform: uppercase;
     font-size: 15px;
@@ -64,4 +62,53 @@
     color: #8C7F77;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    .home-service {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-image: none;
+    }
+    .home-Titles{
+        text-align: center;
+        margin-top: 0%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .home-Titles p {
+        font-size: 150%;
+    }
+    .home-Titles h3 {
+        font-size: 200%;
+    }
+    .home-desc {
+        grid-column: 1 ;
+    }
+    .home-Txt{
+        margin-left: 0%;
+        text-align: center;
+    }
+    .cardCont {
+        grid-column: 1;
+        display: block;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .cardDesc{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .card h1 {
+        text-align: center;
+    }
+    #item1 {
+        grid-row: 1;
+    }
+    #item2{
+        grid-row: 2;
+    }
+    #item3{
+        grid-row: 3;
+    }
 }

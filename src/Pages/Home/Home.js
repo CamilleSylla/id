@@ -4,17 +4,17 @@ import Desc from './Desc';
 
 
 //style
-import './Home.css'
+import './Main.css'
 import HomeService from './HomeService';
 
 //component
 import Intro from './Intro'
-export default function Home () {
+export default function Home ({show}) {
 
     return (
 
         <div className="page">
-            <Intro/>
+            <Intro show={show}/>
             <Desc/>
             <HomeService/>
             <Arg/>

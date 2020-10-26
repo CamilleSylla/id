@@ -26,7 +26,7 @@ export default function Desc() {
                     N'attendez plus pour vous brancher au futur.
                 </p>
                 <Link to="/services/vitrine" style={{textDecoration: "none"}}  >
-                    <div className="descBtn">
+                    <div className="descBtn" >
                         <h2>Me Connecter</h2>
                     </div>
                 </Link>

@@ -43,7 +43,7 @@ function App() {
             classNames="item"
           >
             <Switch location={location}>
-              <Route exact path='/' component={Home} />
+              <Route exact path='/' render={ () => (<Home show={setState}/>)}/>
               <Route path='/services' render={({ match: { url } }) => (
                 <>
                   <Route path={`${url}/`} component={Vitrine} exact />
@@ -61,7 +61,7 @@ function App() {
         </TransitionGroup>
       )} />
       {Modal}
-      <Footer />
+      <Footer show={setState}/>
     </div>
   );
 }

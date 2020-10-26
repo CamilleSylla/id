@@ -1,8 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export default function Intro () {
 
+import './Home.css'
+
+export default function Intro ({ show }) {
+    
     return (
 
         <div className="home">
@@ -17,7 +20,7 @@ export default function Intro () {
                         <h2>Services</h2>
                     </div>
                     </Link>
-                    <div className="devisBtn">
+                    <div className="devisBtn" onClick={ () => show({ show: true})}>
                         <h2>Devis Gratuit</h2>
                     </div>
                 </div>
