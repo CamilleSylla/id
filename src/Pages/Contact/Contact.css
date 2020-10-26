@@ -11,8 +11,7 @@
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: minmax(50px, 40%)
-    
+    grid-template-rows: minmax(50px, 40%);
 }
 .contact-form {
     grid-column: 2;
@@ -115,3 +114,39 @@
             padding: 5%;
         }
 }
+
+@media (orientation: landscape) and (max-width : 768px) {
+    .modal {
+        position: fixed;
+        height: 100%;
+    }
+    .wrapper {
+        display: block;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: minmax(50px, 40%);
+    }
+    
+    .contact-form {
+        grid-column: 2;
+        grid-row: 2;
+        background-color: #D9D8D7;
+    }
+    .input-fields {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row: auto;
+        margin: 0%;
+    }
+    .input-fields img {
+        grid-column: 1 / span 2;
+        width: 5%;
+        overflow: scroll;
+    }
+    .msg {
+        padding-bottom: 0%;
+    }
+    .form-btn {
+        grid-column: 2;
+    }
+}
+
