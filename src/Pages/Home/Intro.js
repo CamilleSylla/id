@@ -28,7 +28,7 @@ export default function Intro ({ show }) {
             </div>
             <div className="introIll">
                 <div className="introLayer">
-                <h5>.Build</h5>
+                <h5>.IconicDev</h5>
                 </div>
                 
             </div>
