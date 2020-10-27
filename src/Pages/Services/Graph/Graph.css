@@ -5,3 +5,8 @@
     background-image: url(../../../assets/img/graph.jpg);
     background-size: cover;
 }
+@media (max-width: 768px) {
+    .graph-intro-img{
+        display: none;
+    }
+}

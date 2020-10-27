@@ -61,3 +61,34 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+
+@media (max-width: 768px) {
+    .ecom-intro {
+        display: block;
+        height: auto;
+    }
+    .ecom-intro-img{
+        display: none;
+    }
+    .ecom-intro-text{
+        width: 100%;
+        text-align: center;
+    }
+    .ecom-intro-text h1{
+        margin: 5%;
+        padding-top: 40%;
+    }
+    .ecom-intro-icon {
+        display: none;
+    }
+    .ecom-intro-text p {
+        color:#261417;
+        margin: 5%;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+    .ecom-desc-txt{
+        margin: 5%;
+        text-align: center;
+    }
+}

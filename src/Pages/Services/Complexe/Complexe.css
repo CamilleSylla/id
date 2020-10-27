@@ -6,3 +6,8 @@
     background-image: url(../../../assets/img/comp.jpg);
     background-size: cover;
 }
+@media (max-width: 768px) {
+    .comp-intro-img{
+        display: none;
+    }
+}

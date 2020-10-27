@@ -5,3 +5,8 @@
     background-image: url(../../../assets/img/supp.jpg);
     background-size: cover;
 }
+@media (max-width: 768px) {
+    .supp-intro-img{
+        display: none;
+    }
+}
