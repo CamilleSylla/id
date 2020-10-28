@@ -8,6 +8,7 @@
     height: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    height: 100vh;
 }
 .intro{
     grid-column: 1;

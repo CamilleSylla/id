@@ -13,8 +13,7 @@ export default function Vitrine() {
                 <div className="vitrine-intro-text">
                     <h1>Creation de sites internet vitrines</h1>
                     <p>
-                        Pour se démarquer sur internet et faire
-                        de votre projet une entité unique.
+                        Faite de votre projet le reflet de votre image tout en vous démarquant sur Internet.
                     </p>
                     <div className="vitrine-intro-icon">
                         <img src={Arrow} alt="arrow" />
@@ -28,89 +27,71 @@ export default function Vitrine() {
             <div className="vitrine-desc">
                 <div className="vitrine-desc-txt">
                     <p>
-                        Que vous soyez un prestataire de service ou un commerçant,
-                        l’image de votre société sur internet doit permettre à vos
-                        clients et partenaires d’être rassurés et confiants sur la
-                        qualité de vos produits et prestations. C’est dans cet
-                        esprit que nous conçevons des chartes graphiques modernes
-                        et attractives possédant une ergonomie travaillée pour que
-                        nos sites internet vitrines soient des atouts majeurs pour
-                        nos clients.
+                        Prestataire de Services, association, commerçant etc...
+                        Votre image sur Internet doit inspirée confiance à vos
+                        partenaires et clients sur la qualité de votre activité.
+                        Nous concevons des sites Internet étudié afin que l'interface
+                        utilisateur et son expérience soit moderne et attractive.
+                        Le but étant de faire de votre projet un atout majeur dans votre
+                        stratégie de communication digitale.
                            </p>
                     <div className="argumentsGrid">
                         <div className="arguments">
 
                             <h5>
-                                Ne laissez pas votre marque ressembler a celle
-                                de vos concurrents
+                                Ne tombez pas dans le banal. Soyer unique !
                                  </h5>
                             <p>
-                                Afin de marquer les mémoires nous essayons
-                                toujours de proposer quelque chose d’unique,
-                                d'original et de pertinent tout en respectant
-                                les standards du web et les tendances
-                                graphiques. Nos souhaitons toujours fournir
-                                un site vitrine au style épuré,
-                                professionnel, ergonomique et avec une très
-                                forte valeur ajoutée.
+                                Le meilleur moyen d'encrer les esprits est d'être unique et original.
+                                Nous vous aiderons à le devenir et à sortir de la masse en respectant les standards et tendances du web.
+                                Nos conceptions seront toujours orientées vers un style épuré et professionnel afin de captiver l'utilisateur.
                                        </p>
                             <h5>
-                                Disponible sur tous les supports fixes ou mobiles
+                                Utilisable sur tout support
                                  </h5>
                             <p>
-                                Une des priorités durant le développement de nos
-                                sites internet vitrines, est qu'ils soient entièrement
-                                responsive et adaptés à tous les supports existants
-                                (ordinateurs, tablettes, phablettes et mobiles).
+                                Lors du développement de votre site, l'adaptation aux différents formats d'écran sera une des priorités
+                                afin qu'il soit complètement responsive et adapte à n'importe quel support
                                        </p>
                             <h5>
-                                Un site internet Vitrine avec moins de chargement
+                                Temps de chargement presque inexistant
                                  </h5>
                             <p>
-                                Grâce à nos compétences dans les
-                                dernières technologies web nous garantissons des temps
-                                d’affichage proche de zéro pour toutes les pages de votre
-                                site internet vitrine. Cela a une influence direct sur
-                                l’amélioration du référencement de votre site internet
-                                et vous permettra de surpasser très largement les temps
-                                d’affichage des sites concurrents. Nous vous invitons à naviguer sur notre site internet
-                                afin de vous rendre compte par vous-même de la vitesse
-                                d'affichage de nos pages web.
+                                Aujourd'hui (même si google n'a jamais officiellement donné la recette du référencement)
+                                le temps de chargement des pages compte énormément dans le référencement de votre site.
+                                Nous Vous garantissons un site vitrine avec un temps de chargement proche de zéro.
+                                Cela vous permettra de surpasser les sites de vos concurrents. Naviguez sur notre site internet vous en aurez la preuve.
                                        </p>
                             <h5>
-                                Un web design et une ergonomie professionnel
+                                WebDesign tendance et ergonomie intuitive
                                  </h5>
                             <p>
-                                Nos compétences en web design et en expériences
-                                utilisateurs nous permettent de produire un site
-                                internet vitrine facile à utiliser et à comprendre.
-                                Nous avons à coeur de créer une interface simple,
-                                intuitive et agréable à utiliser, qui met l'accent sur
-                                les informations importantes de votre activité.
+                                Rien de pire qu'un site internet avec une ergonomie non travaillé.
+                                Car garder les utilisateurs de votre site le plus longtemps sur
+                                votre site, nous tient à coeur, nous mettrons en place pour
+                                vous une ergonomie et un design attractif et professionnel pour
+                                l'utilisateur en mettant l'accent sur votre activité
                                        </p>
                             <h5>
-                                Un site internet vitrine concu pour le referencement
+                                Conception et optimisation du referencement
                                  </h5>
                             <p>
-                                Le but de tout site internet est d'être trouvé dans les
-                                résultats de recherche. Ainsi, nous optimisons la
-                                structure sémantique de votre projet afin qu'il
-                                respecte au mieux les règles en la matière.
-                                Car le référencement se passe aussi et surtout
-                                en dehors de votre site internet, nous mettons
-                                à disposition nos conseils et nos idées pour faire
-                                connaitre votre projet.
+                                Un site internet doit respecter certaines règles pour pouvoir être
+                                sur la première page de votre recherche google. Nous mettrons tous
+                                en oeuvres pour respecter ses règles. Cependant n'oubliez pas que le référencement se fait aussi et
+                                même majoritairement en dehors de votre site... Nous vous communiquerons
+                                nos conseils pour faire connaitre votre projet.
                                 </p>
                         </div>
                         <div className="techno">
                             <div className="techno-grid">
                                 <div className="bref-item">
-                                    <img src={Check} alt="checked" style={{ width: "15%"}} />
+                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
                                     <p>Temps de chargement raccourcis</p>
                                 </div>
                                 <div className="bref-item">
                                     <img src={Check} alt="checked" style={{ width: "15%" }} />
-                                    <p>Une vitrine adapter à tout écran</p>
+                                    <p>Un site adapter à tout écran</p>
                                 </div>
                                 <div className="bref-item">
                                     <img src={Check} alt="checked" style={{ width: "15%" }} />

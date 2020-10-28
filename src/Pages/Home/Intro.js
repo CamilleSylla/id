@@ -12,10 +12,8 @@ export default function Intro ({ show }) {
             <div className="intro">
                 <img src={Sign} alt="Signature"/>
                 <div className="introTxt">
-                    <h1>votre solution web adapter a votre besoin</h1>
-                    <p>Franchissez le cap du digital et envahissez 
-                        un monde ou les limites ne sont qu'imaginaire...
-                    </p>
+                    <h1>marquez Internet de votre empreinte</h1>
+                    <p>Franchissez le cap du digital et envahissez un monde où les limites ne sont qu'imaginaire...</p>
                     <Link to="/services/vitrine" style={{textDecoration: "none"}}>
                     <div className="servicesBtn">
                         <h2>Services</h2>
