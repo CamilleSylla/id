@@ -4,11 +4,14 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
+
+.intro-container {
+    display: block;
+    height: 100vh;
+}
 .home {
-    height: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    height: 100vh;
 }
 .intro{
     grid-column: 1;

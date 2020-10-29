@@ -36,10 +36,9 @@ export default function HomeService() {
                     </div>
                     <div className="card" id="item3">
                         <p className="cardNum">03</p>
-                        <h1>assitance bureautique</h1>
+                        <h1>Freelancing</h1>
                         <p className="cardDesc">
-                            Simplifier votre quotidien et les taches bureautiques en utilisant les bons outils.
-                            IconicDev étudiera vos besoins afin d'optimiser vos taches et donc rentabiliser votre temps.
+                        Engager un de nos développeurs pour vous aider votre équipe de développement à atteindre ses objectifs !
 
                     </p>
                     </div>

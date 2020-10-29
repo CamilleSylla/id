@@ -1,19 +1,7 @@
 import React from 'react';
 
-import Html from '../../../assets/img/icons/html-5.svg'
-import Css from '../../../assets/img/icons/css.svg'
-import Js from '../../../assets/img/icons/javascript.svg'
-import Wp from '../../../assets/img/icons/wordpress.svg'
-import ReactJs from '../../../assets/img/icons/ReactJS.svg'
-import Git from '../../../assets/img/icons/github.svg'
-import Php from '../../../assets/img/icons/php.svg'
-import Elementor from '../../../assets/img/icons/elementor.svg'
-import Webpack from '../../../assets/img/icons/webpack.svg'
-import NodeJs from '../../../assets/img/icons/Node.svg'
-
 import Arrow from '../../../assets/icon/g6.png'
 import Check from '../../../assets/icon/checked.svg'
-import NavBot from '../NavBot/NavBot';
 
 import './Graph.css'
 
@@ -23,9 +11,9 @@ export default function Graph() {
         <div className="ecom">
             <div className="ecom-intro">
                 <div className="ecom-intro-text">
-                    <h1>donner naissances a vos idees</h1>
+                    <h1>Imposer votre style</h1>
                     <p>
-                        Pour les porteurs de projets avec un concept réalisable uniquement sur-mesure.
+                        Démarquer vous de la concurrence en ayant une identité visuelle à la hauteur de vos ambitions
                     </p>
                     <div className="ecom-intro-icon">
                         <img src={Arrow} alt="arrow" />
@@ -39,77 +27,50 @@ export default function Graph() {
             <div className="ecom-desc">
                 <div className="ecom-desc-txt">
                     <p>
-                        Le site e-commerce doit posséder une ergonomie suffisante
-                        pour permettre aux utilisateurs de trouver rapidement les
-                        produits qu'ils recherchent ainsi qu'un design sobre et
-                        professionnel afin de les rassurer sur la qualité des
-                        services. De plus, la priorité doit être portée sur le
-                        référencement des produits, les modes de paiement et de
-                        livraison et la création de fonctionnalités innovantes.
-                        Ainsi une solution sur-mesure sera toujours plus
-                        pertinente qu'un CMS comme Shopify, Prestashop ou Magento.
+                        Que ce soit pour attirer l'attention, augmenter la fidélisation mais aussi
+                        assurer sa popularité sûre et en dehors d'internet, votre identité visuelle
+                        sera un facteur important dans la réussite de vos projets. Le consommateur
+                        d'aujourd'hui se tourne vers les marques qui
+                        lui ressemble et qui correspondent à ses valeurs. On peut donc en déduire que
+                        l'identité visuelle est un acteur majeur de l'image de marque.
                            </p>
                     <div className="argumentsGrid">
                         <div className="arguments">
+                            <h5>
+                                Une charte graphique comme ligne conductrice
+                                 </h5>
+                            <p>
+                                C'est un élément indispensable dans votre stratégie de communication.
+                                Nous nous engageons à concevoir pour vous une charte graphique qui
+                                permettra de vous différencier de la concurrence. Nous nous chargerons
+                                d'assurer une cohérence des coleriemetries, logo, polices, en suivant
+                                un style épuré et moderne en fonction de votre secteur d'activité.
+                                       </p>
+                            <h5>
+                                Un logo comme symbole
+                                 </h5>
+                            <p>
 
-                            <h5>
-                                Les sites e-commerces connus sont tous réalisés sur mesure
-                                 </h5>
-                            <p>
-                                Les leaders de la vente en ligne dans tous les secteurs ont
-                                développé leurs boutiques en ligne sur-mesure et n'utilisent
-                                pas de CMS. Nous conseillons à nos clients de démarrer leur
-                                projet sur une base technique sur-mesure moderne, adaptive,
-                                évolutive et ergonomique pour ne pas être bloqué par la
-                                rigidité des solutions "pré-fabriquées" qui finiront surement
-                                par ne plus répondre aux besoins de votre activité.
+                                Un logo est la pièce maitresse de votre identité visuelle
+                                il a un rapport direct avec votre activité ainsi que vos valeurs
+                                . Nous concevrons pour vous un logo a la hauteur de vos espérances
+                                dans les tendances graphiques actuelles et facilement adaptables.
                                        </p>
                             <h5>
-                                Nous développons votre site e-commerce autour de vos produits
+                                Edition de contenue graphique
                                  </h5>
                             <p>
-                                Dès la conception, nous réfléchissons aux solutions les plus
-                                adaptées pour vendre vos produits de la meilleure des manières.
-                                Pour chaque type de marchandise, il existe des pré-requis de
-                                mise en forme, d'ergonomie et des fonctionnalités indispensables différentes.
+                                Les flyers, Carte de Visite ou encore contenue graphique
+                                pour réseaux sociaux peuvent être des facteurs positifs
+                                pour faire connaitre vos projets et donc par conséquent votre
+                                marque. Nous confier la conception de ceux-ci vous assurera
+                                une cohérence avec entre les éléments cités précédemment et votre stratégie communication.
                                        </p>
-                            <h5>
-                                Un système de recherche, de tris et de filtres efficace
-                                 </h5>
-                            <p>
-                                Le système de recherche d'un site e-commerce est l'une des
-                                composantes essentielles à sa réussite. Vos utilisateurs
-                                pourront rechercher, filtrer et trier rapidement vos
-                                produits afin de trouver en quelques clics ce qu'ils recherchent.
-                                       </p>
-                            <h5>
-                                Des modes de paiement et de livraison sur-mesure
-                                 </h5>
-                            <p>
-                                Le développement sur-mesure de votre site e-commerce
-                                permettra l'ajout de n'importe quel mode de paiement
-                                et de livraison permettant ainsi de proposer un large
-                                choix d'options de livraison et de paiement pour vos utilisateurs.
-                                       </p>
-                            <h5>
-                                Un référencement sur-mesure et optimisé pour vos produits
-                                 </h5>
-                            <p>
-                                Le développement sur-mesure permet d'avoir un contrôle total
-                                sur la forme de votre référencement. Nous choisirons ensemble
-                                la forme de vos urls, de vos titres, de vos descriptions; le
-                                contenu à mettre en avant et tout ce qui touche à l'image de
-                                votre site e-commerce dans les résultats des moteurs de recherche.
-                                Nous mettrons en avant vos produits dans les résultats de recherche
-                                grâce aux données structurées de Google. Nous avons acquis de nombreuses
-                                techniques durant le développement de nos projets e-commerce que nous
-                                mettrons à votre disposition.
-                                </p>
                         </div>
                         <div className="techno">
                             <div className="techno-grid">
                                 <div className="bref-item">
-                                    <img src={Check} alt="checked" style={{ width: "15%" }}/>
+                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
                                     <p>Mettre en avant vos produits.</p>
                                 </div>
                                 <div className="bref-item">
@@ -117,15 +78,15 @@ export default function Graph() {
                                     <p> Optimisé pour vos produits.</p>
                                 </div>
                                 <div className="bref-item">
-                                    <img src={Check} alt="checked" style={{ width: "15%" }}/>
+                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
                                     <p>Filtre performant.</p>
                                 </div>
                                 <div className="bref-item">
-                                    <img src={Check} alt="checked" style={{ width: "15%" }}/>
+                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
                                     <p> Paiement securisé.</p>
                                 </div>
                                 <div className="bref-item">
-                                    <img src={Check} alt="checked" style={{ width: "15%" }}/>
+                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
                                     <p>Cohérence graphique.</p>
                                 </div>
                             </div>

@@ -3,6 +3,18 @@ import React from 'react';
 import Arrow from '../../../assets/icon/g6.png'
 import Check from '../../../assets/icon/checked.svg'
 
+import Html from '../../../assets/img/icons/html-5.svg'
+import Css from '../../../assets/img/icons/css.svg'
+import Js from '../../../assets/img/icons/javascript.svg'
+import Wp from '../../../assets/img/icons/wordpress.svg'
+import ReactJs from '../../../assets/img/icons/ReactJS.svg'
+import Git from '../../../assets/img/icons/github.svg'
+import MyAdmin from '../../../assets/img/icons/MyAdmin.svg'
+import Elementor from '../../../assets/img/icons/elementor.svg'
+import Webpack from '../../../assets/img/icons/webpack.svg'
+import NodeJs from '../../../assets/img/icons/Node.svg'
+import Psql from '../../../assets/img/icons/Psql.svg'
+import Fire from '../../../assets/img/icons/Fire.svg'
 
 import './Supp.css'
 
@@ -12,9 +24,9 @@ export default function Supp() {
         <div className="ecom">
             <div className="ecom-intro">
                 <div className="ecom-intro-text">
-                    <h1>donner naissances a vos idees</h1>
+                    <h1>nos connaissances a disposition de votre equipe</h1>
                     <p>
-                        Pour les porteurs de projets avec un concept réalisable uniquement sur-mesure.
+                        Renforcer votre équipe sur votre projet
                     </p>
                     <div className="ecom-intro-icon">
                         <img src={Arrow} alt="arrow" />
@@ -28,93 +40,58 @@ export default function Supp() {
             <div className="ecom-desc">
                 <div className="ecom-desc-txt">
                     <p>
-                        Le site e-commerce doit posséder une ergonomie suffisante
-                        pour permettre aux utilisateurs de trouver rapidement les
-                        produits qu'ils recherchent ainsi qu'un design sobre et
-                        professionnel afin de les rassurer sur la qualité des
-                        services. De plus, la priorité doit être portée sur le
-                        référencement des produits, les modes de paiement et de
-                        livraison et la création de fonctionnalités innovantes.
-                        Ainsi une solution sur-mesure sera toujours plus
-                        pertinente qu'un CMS comme Shopify, Prestashop ou Magento.
+                        Vous souhaitez démarrer un projet web, le faire évoluer,
+                        avec une équipe que vous composer à 100%. Nos développeurs
+                        sont à votre disposition afin de venir renforcer vos équipes
+                        et assurer la réussite de vos projets.
                            </p>
                     <div className="argumentsGrid">
                         <div className="arguments">
-
-                            <h5>
-                                Les sites e-commerces connus sont tous réalisés sur mesure
-                                 </h5>
-                            <p>
-                                Les leaders de la vente en ligne dans tous les secteurs ont
-                                développé leurs boutiques en ligne sur-mesure et n'utilisent
-                                pas de CMS. Nous conseillons à nos clients de démarrer leur
-                                projet sur une base technique sur-mesure moderne, adaptive,
-                                évolutive et ergonomique pour ne pas être bloqué par la
-                                rigidité des solutions "pré-fabriquées" qui finiront surement
-                                par ne plus répondre aux besoins de votre activité.
-                                       </p>
-                            <h5>
-                                Nous développons votre site e-commerce autour de vos produits
-                                 </h5>
-                            <p>
-                                Dès la conception, nous réfléchissons aux solutions les plus
-                                adaptées pour vendre vos produits de la meilleure des manières.
-                                Pour chaque type de marchandise, il existe des pré-requis de
-                                mise en forme, d'ergonomie et des fonctionnalités indispensables différentes.
-                                       </p>
-                            <h5>
-                                Un système de recherche, de tris et de filtres efficace
-                                 </h5>
-                            <p>
-                                Le système de recherche d'un site e-commerce est l'une des
-                                composantes essentielles à sa réussite. Vos utilisateurs
-                                pourront rechercher, filtrer et trier rapidement vos
-                                produits afin de trouver en quelques clics ce qu'ils recherchent.
-                                       </p>
-                            <h5>
-                                Des modes de paiement et de livraison sur-mesure
-                                 </h5>
-                            <p>
-                                Le développement sur-mesure de votre site e-commerce
-                                permettra l'ajout de n'importe quel mode de paiement
-                                et de livraison permettant ainsi de proposer un large
-                                choix d'options de livraison et de paiement pour vos utilisateurs.
-                                       </p>
-                            <h5>
-                                Un référencement sur-mesure et optimisé pour vos produits
-                                 </h5>
-                            <p>
-                                Le développement sur-mesure permet d'avoir un contrôle total
-                                sur la forme de votre référencement. Nous choisirons ensemble
-                                la forme de vos urls, de vos titres, de vos descriptions; le
-                                contenu à mettre en avant et tout ce qui touche à l'image de
-                                votre site e-commerce dans les résultats des moteurs de recherche.
-                                Nous mettrons en avant vos produits dans les résultats de recherche
-                                grâce aux données structurées de Google. Nous avons acquis de nombreuses
-                                techniques durant le développement de nos projets e-commerce que nous
-                                mettrons à votre disposition.
-                                </p>
+                            <h5> Nos technologies principales :</h5>
+                            <div className="tech">
+                                <img src={Html}/>
+                                <img src={Css}/>
+                                <img src={Js}/>
+                                <img src={ReactJs}/>
+                                <img src={Wp}/>
+                                <img src={Fire}/>
+                                <img src={NodeJs}/>
+                                <img src={Psql}/>
+                                <img src={MyAdmin}/>
+                                <img src={Webpack}/>
+                            </div>
+                            <h5> inspecter notre code :</h5>
+                            <div className="tech">
+                                <div className="tech-cards">
+                                <img src={Git}/>
+                                <h1> Camille Sylla</h1>
+                                </div>
+                                <div className="tech-cards">
+                                <img src={Git}/>
+                                <h1> Malahmine Ba</h1>
+                                </div>
+                            </div>
                         </div>
                         <div className="techno">
                             <div className="techno-grid">
                                 <div className="bref-item">
-                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <img src={Check} alt="checked"  style={{ width: "15%" }}/>
                                     <p>Temps de chargement raccourcis</p>
                                 </div>
                                 <div className="bref-item">
-                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <img src={Check} alt="checked"  style={{ width: "15%" }}/>
                                     <p>Une vitrine adapter à tout écran</p>
                                 </div>
                                 <div className="bref-item">
-                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <img src={Check} alt="checked"  style={{ width: "15%" }}/>
                                     <p>Un design et une ergonimie moderne</p>
                                 </div>
                                 <div className="bref-item">
-                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <img src={Check} alt="checked"  style={{ width: "15%" }}/>
                                     <p>Une etudes de réferencement poussé</p>
                                 </div>
                                 <div className="bref-item">
-                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <img src={Check} alt="checked" style={{ width: "15%" }}/>
                                     <p>Renforcera votre image de marque</p>
                                 </div>
                             </div>
@@ -123,7 +100,7 @@ export default function Supp() {
                 </div>
 
             </div>
-            
+
         </div>
     )
 }
