@@ -12,9 +12,9 @@ export default function Graph() {
         <div className="ecom">
             <div className="ecom-intro">
                 <div className="ecom-intro-text">
-                    <h1>Imposer votre style</h1>
+                    <h1>Imposez votre style</h1>
                     <p>
-                        Démarquer vous de la concurrence en ayant une identité visuelle à la hauteur de vos ambitions
+                        Démarquez-vous de la concurrence en ayant une identité visuelle à la hauteur de vos ambitions.
                     </p>
                     <div className="ecom-intro-icon">
                         <img src={Arrow} alt="arrow" />
@@ -25,15 +25,15 @@ export default function Graph() {
                     </div>
                 </div>
             </div>
-            <NavBot/>
+            <NavBot />
             <div className="ecom-desc">
                 <div className="ecom-desc-txt">
                     <p>
                         Que ce soit pour attirer l'attention, augmenter la fidélisation mais aussi
-                        assurer sa popularité sûre et en dehors d'internet, votre identité visuelle
+                        assurer sa popularité sur et en dehors d'internet, votre identité visuelle
                         sera un facteur important dans la réussite de vos projets. Le consommateur
                         d'aujourd'hui se tourne vers les marques qui
-                        lui ressemble et qui correspondent à ses valeurs. On peut donc en déduire que
+                        lui ressemblent et qui correspondent à ces valeurs. On peut donc en déduire que
                         l'identité visuelle est un acteur majeur de l'image de marque.
                            </p>
                     <div className="argumentsGrid">
@@ -45,7 +45,7 @@ export default function Graph() {
                                 C'est un élément indispensable dans votre stratégie de communication.
                                 Nous nous engageons à concevoir pour vous une charte graphique qui
                                 permettra de vous différencier de la concurrence. Nous nous chargerons
-                                d'assurer une cohérence des coleriemetries, logo, polices, en suivant
+                                d'assurer une cohérence des colorimétries, logo, polices, en suivant
                                 un style épuré et moderne en fonction de votre secteur d'activité.
                                        </p>
                             <h5>
@@ -53,20 +53,20 @@ export default function Graph() {
                                  </h5>
                             <p>
 
-                                Un logo est la pièce maitresse de votre identité visuelle
-                                il a un rapport direct avec votre activité ainsi que vos valeurs
-                                . Nous concevrons pour vous un logo a la hauteur de vos espérances
+                                Un logo est la pièce maîtresse de votre identité visuelle.
+                                Il a un rapport direct avec votre activité ainsi que vos valeurs.
+                                Nous concevrons pour vous un logo à la hauteur de vos espérances
                                 dans les tendances graphiques actuelles et facilement adaptables.
                                        </p>
                             <h5>
-                                Edition de contenue graphique
+                                Edition de contenu graphique
                                  </h5>
                             <p>
-                                Les flyers, Carte de Visite ou encore contenue graphique
+                                Les flyers, cartes de visite ou encore contenus graphiques
                                 pour réseaux sociaux peuvent être des facteurs positifs
-                                pour faire connaitre vos projets et donc par conséquent votre
+                                pour faire connaître vos projets et donc, par conséquent, votre
                                 marque. Nous confier la conception de ceux-ci vous assurera
-                                une cohérence avec entre les éléments cités précédemment et votre stratégie communication.
+                                une cohérence entre les éléments cités précédemment et votre stratégie de communication.
                                        </p>
                         </div>
                         <div className="techno">

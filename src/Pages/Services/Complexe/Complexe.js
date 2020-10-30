@@ -12,9 +12,9 @@ export default function Comp() {
         <div className="ecom">
             <div className="ecom-intro">
                 <div className="ecom-intro-text">
-                    <h1>donner naissances a vos idees</h1>
+                    <h1>donnez naissance a vos idees</h1>
                     <p>
-                        Votre projet est porteur mais réalisable uniquement sur mesure ? Pas de probleme
+                        Votre projet est porteur mais réalisable uniquement sur mesure ? Pas de problème.
                     </p>
                     <div className="ecom-intro-icon">
                         <img src={Arrow} alt="arrow" />
@@ -25,7 +25,7 @@ export default function Comp() {
                     </div>
                 </div>
             </div>
-            <NavBot/>
+            <NavBot />
             <div className="ecom-desc">
                 <div className="ecom-desc-txt">
                     <p>
@@ -39,7 +39,7 @@ export default function Comp() {
                                 Une solution pour tout projet
                                  </h5>
                             <p>
-                                Nous et nos partenaires ont toutes les compétences nécessaires pour donner à votre projet la forme que vous avez imaginé.
+                                Nous avons toutes les compétences nécessaires pour donner à votre projet la forme que vous avez imaginée.
                                 Nous mettrons tout en oeuvre pour satisfaire votre demande. N'oubliez pas d'établir un cahier des charges :) ...
                                        </p>
                             <h5>
@@ -47,24 +47,24 @@ export default function Comp() {
                                  </h5>
                             <p>
                                 Rien de pire qu'un site internet avec une ergonomie non travaillé.
-                                Car garder les utilisateurs de votre site le plus longtemps sur
-                                votre site, nous tient à coeur, nous mettrons en place pour
-                                vous une ergonomie et un design attractif et professionnel pour
-                                l'utilisateur en mettant l'accent sur votre activité
+                                Car garder les utilisateurs le plus longtemps sur
+                                votre site, nous tient à coeur. Nous mettrons en place pour
+                                vous une ergonomie et un design attractifs et professionnels pour
+                                l'utilisateur en mettant l'accent sur votre activité.
                                        </p>
                             <h5>
                                 Etudes de la concurrence pour une optimisation du referencement
                                  </h5>
                             <p>
-                                Nous étudierons votre marché pour mieux nous positionner sur le celui-ci. Les codes de votre
+                                Nous étudierons votre marché pour mieux nous positionner sur celui-ci. Les codes de votre
                                 domaine d'activité seront pris en compte afin de paraître le plus crédible auprès de votre cible.
                                        </p>
                             <h5>
-                                Anticipation des futurs evolutions
+                                Anticipation des futures evolutions
                                  </h5>
                             <p>
                                 Ce type de projet est bien souvent susceptible d'évoluer en fonction des retours utilisateurs.
-                                Une structure adaptée à une évolution rapide sera donc établie dès les premières lignes de code
+                                Une structure adaptée à une évolution rapide sera donc établie dès les premières lignes de code.
                                        </p>
                         </div>
                         <div className="techno">

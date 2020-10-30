@@ -21,8 +21,7 @@ export default function Desc() {
                     IconicDev vous propose de vous accompagner
                     dans la création de votre image digitale.
                     Notre expertise dans le domaine
-                    du numérique vous assure un contenue dans les
-                    trends actuelles ainsi que personnifier.<br /><br />
+                    du numérique vous assure un contenu personnalisé dans les trends actuels.<br /><br />
                     N'attendez plus pour vous brancher au futur.
                 </p>
                 <Link to="/services/vitrine" style={{ textDecoration: "none" }}  >

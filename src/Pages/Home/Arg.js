@@ -10,7 +10,7 @@ export default function Arg() {
         <div className="arg">
             <img src={Sign} alt="icon"/>
             <p className="argTitle">L'ensemble de notre savoir a votre disposition.</p>
-            <p className="argQuote"> Profitez aussi de nos conseils en stratégie, communication digital et référencement. </p>
+            <p className="argQuote"> Profitez aussi de nos conseils en stratégie / communication digitale et référencement. </p>
             <div className="argGrid">
                 <div className="countUp">
                     <CountUp end={100} redraw={true} suffix="%">
@@ -20,7 +20,7 @@ export default function Arg() {
                             </VisibilitySensor>
                         )}
                     </CountUp>
-                    <h5>Adapter</h5>
+                    <h5>Adapté</h5>
                     <p>Nous trouverons toujours une solution avantageuse</p>
                 </div>
                 <div className="countUp">
@@ -31,8 +31,8 @@ export default function Arg() {
                             </VisibilitySensor>
                         )}
                     </CountUp>
-                    <h5>Optimiser</h5>
-                    <p>Le contenue que nous proposont est performant en tout point</p>
+                    <h5>Optimisé</h5>
+                    <p>Nous proposont un contenue performant en tout point</p>
                 </div>
                 <div className="countUp">
                     <CountUp end={50} redraw={true} suffix="K+" >
@@ -43,7 +43,7 @@ export default function Arg() {
                         )}
                     </CountUp>
                     <h5>Lignes de codes</h5>
-                    <p>Des crampes aux doigts mais votre satifaction les soignents</p>
+                    <p>Des crampes aux doigts mais votre satifaction les soignent</p>
                 </div>
             </div>
         </div>

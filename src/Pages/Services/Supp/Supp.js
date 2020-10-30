@@ -26,7 +26,7 @@ export default function Supp() {
                 <div className="ecom-intro-text">
                     <h1>nos connaissances a disposition de votre equipe</h1>
                     <p>
-                        Renforcer votre équipe sur votre projet
+                        Renforcez votre équipe sur vos projet.
                     </p>
                     <div className="ecom-intro-icon">
                         <img src={Arrow} alt="arrow" />
@@ -42,7 +42,7 @@ export default function Supp() {
                 <div className="ecom-desc-txt">
                     <p>
                         Vous souhaitez démarrer un projet web, le faire évoluer,
-                        avec une équipe que vous composer à 100%. Nos développeurs
+                        avec une équipe que vous composez à 100%. Nos développeurs
                         sont à votre disposition afin de venir renforcer vos équipes
                         et assurer la réussite de vos projets.
                            </p>
