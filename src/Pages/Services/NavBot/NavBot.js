@@ -60,7 +60,7 @@ export default function NavBot() {
                     color: "#261417"
                   }}
                 >
-                    Support Bureautique
+                    Freelancing
                     </NavLink>
             </p>
         </div>

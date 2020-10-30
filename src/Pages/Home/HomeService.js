@@ -10,7 +10,7 @@ export default function HomeService() {
                 <div className="home-Txt">
                     <div className="home-Titles">
                         <h3>_   Services</h3>
-                        <p>Develeoppement Web, WebDesign, Graphisme...
+                        <p>Creation de site internet, conception graphique, freelancing...
                     </p>
                     </div>
                 </div>

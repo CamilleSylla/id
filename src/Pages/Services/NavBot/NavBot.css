@@ -2,15 +2,13 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 2%;
-    position: fixed;
-    bottom: 0;
     width: 100%;
+    height: 50px;
     background-color: #BF4539;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
-    opacity: 0.2;
     transition: all 0.3s ease-out;
 }
 a.bottom-nav{
@@ -23,14 +21,22 @@ a.bottom-nav{
 .navBot p{
     transition: all 0.3s ease-out;
     color: #D9D8D7;
-    text-decoration: none;  
+    text-decoration: none;
+    top: 50%;
 }
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
     .navBot{
+        height: auto;
+        margin: auto;
         opacity: 1;
+        display: block;
     }
     a.bottom-nav{
         text-align: center;
         font-size: 70%;
+    }
+    .navBot p{
+        margin-top: 2%;
+        font-size: x-large;
     }
 }

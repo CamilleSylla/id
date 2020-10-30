@@ -37,11 +37,19 @@ export default function Nav({ show }) {
                 <p className="nav-contact" onClick={() => show({ show: true })}>Contact</p>
             </div>
             <div className="nav-icons">
+
                 <div className="FB">
-                    <img src={FB} alt="facebook" />
+                    <img src={FB}
+                        alt="facebook"
+                        onClick={(e) => (window.open('https://www.facebook.com/IconicDev-102040181691238'))}
+                    />
                 </div>
                 <div className="IG">
-                    <img src={IG} alt="facebook" />
+                    <img
+                        src={IG}
+                        alt="facebook"
+                        onClick={(e) => (window.open('https://www.instagram.com/iconicdev.id/'))}
+                    />
                 </div>
             </div>
 

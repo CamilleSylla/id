@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Arrow from '../../../assets/icon/g6.png'
+import Arrow from '../../../assets/icon/Arrow.svg'
 import Check from '../../../assets/icon/checked.svg'
-import NavBot from '../NavBot/NavBot';
 
 import './Complexe.css'
+import NavBot from '../NavBot/NavBot';
 
 export default function Comp() {
 
@@ -25,6 +25,7 @@ export default function Comp() {
                     </div>
                 </div>
             </div>
+            <NavBot/>
             <div className="ecom-desc">
                 <div className="ecom-desc-txt">
                     <p>

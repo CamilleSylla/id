@@ -2,9 +2,9 @@ import React from 'react';
 
 
 import './Vitrine.css'
-import Arrow from '../../../assets/icon/g6.png'
+import Arrow from '../../../assets/icon/Arrow.svg'
 import Check from '../../../assets/icon/checked.svg'
-
+import NavBot from '../NavBot/NavBot'
 export default function Vitrine() {
 
     return (
@@ -23,6 +23,9 @@ export default function Vitrine() {
                     <div className="vitrine-intro-layer">
                     </div>
                 </div>
+            </div>
+            <div className="navigation">
+                <NavBot />
             </div>
             <div className="vitrine-desc">
                 <div className="vitrine-desc-txt">

@@ -6,7 +6,7 @@ import IG from '../../assets/icon/ig.svg'
 
 import './Footer.css'
 
-export default function Footer ({ show }) {
+export default function Footer({ show }) {
 
     return (
         <div className="footer">
@@ -15,16 +15,24 @@ export default function Footer ({ show }) {
                     <h4>iconicdev-contact@gmail.com</h4>
                 </div>
                 <div className="footerAdresse">
-                    <p>74B rue du PDT J.F. Kennedy<br/>
-                    Saint-Quentin, 02100<br/>
+                    <p>74B rue du PDT J.F. Kennedy<br />
+                    Saint-Quentin, 02100<br />
                     France </p>
                 </div>
                 <div className="footerSocial">
                     <div>
-                        <img src={FB} alt="Facebook"/>
+                        <img
+                            src={FB}
+                            alt="Facebook"
+                            onClick={(e) => (window.open('https://www.facebook.com/IconicDev-102040181691238'))}
+                        />
                     </div>
                     <div>
-                        <img src={IG} alt="Instagram"/>
+                        <img
+                            src={IG}
+                            alt="Instagram"
+                            onClick={(e) => (window.open('https://www.instagram.com/iconicdev.id/'))}
+                        />
                     </div>
                 </div>
             </div>
@@ -41,7 +49,7 @@ export default function Footer ({ show }) {
                 <p>
                     Mentions Légales
                 </p>
-                <p className='footerBtn' onClick={ () => show({show: true})}> Devis Gratuit</p>
+                <p className='footerBtn' onClick={() => show({ show: true })}> Devis Gratuit</p>
             </div>
         </div>
     )

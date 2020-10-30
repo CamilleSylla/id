@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     background-image: url(../../assets/img/homedesc.svg);
-    background-size: contain;
+    background-size: 70% 70%;
     background-repeat: no-repeat;
     background-position: 135% 75%;
 }

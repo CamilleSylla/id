@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Arrow from '../../../assets/icon/g6.png'
+import Arrow from '../../../assets/icon/Arrow.svg'
 import Check from '../../../assets/icon/checked.svg'
 
 import Html from '../../../assets/img/icons/html-5.svg'
@@ -10,13 +10,13 @@ import Wp from '../../../assets/img/icons/wordpress.svg'
 import ReactJs from '../../../assets/img/icons/ReactJS.svg'
 import Git from '../../../assets/img/icons/github.svg'
 import MyAdmin from '../../../assets/img/icons/MyAdmin.svg'
-import Elementor from '../../../assets/img/icons/elementor.svg'
 import Webpack from '../../../assets/img/icons/webpack.svg'
 import NodeJs from '../../../assets/img/icons/Node.svg'
 import Psql from '../../../assets/img/icons/Psql.svg'
 import Fire from '../../../assets/img/icons/Fire.svg'
 
 import './Supp.css'
+import NavBot from '../NavBot/NavBot';
 
 export default function Supp() {
 
@@ -37,6 +37,7 @@ export default function Supp() {
                     </div>
                 </div>
             </div>
+            <NavBot/>
             <div className="ecom-desc">
                 <div className="ecom-desc-txt">
                     <p>
@@ -60,7 +61,7 @@ export default function Supp() {
                                 <img src={MyAdmin}/>
                                 <img src={Webpack}/>
                             </div>
-                            <h5> inspecter notre code :</h5>
+                            <h5> Developpeur disponible :</h5>
                             <div className="tech">
                                 <div className="tech-cards">
                                 <img src={Git}/>
@@ -68,7 +69,7 @@ export default function Supp() {
                                 </div>
                                 <div className="tech-cards">
                                 <img src={Git}/>
-                                <h1> Malahmine Ba</h1>
+                                <h1> Malahmine Bah</h1>
                                 </div>
                             </div>
                         </div>

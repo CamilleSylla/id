@@ -1,8 +1,12 @@
 .arg {
+    display: block;
     background-color: #8C7F77;
+    width: 100%;
+}
+.arg img{
+    width: 20%;
 }
 .argTitle {
-    padding-top: 50px;
     font-family: 'Val';
     font-size: 35px;
     color: #D9D8D7;
@@ -18,17 +22,22 @@
 }
 
 .argGrid h5{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Val', sans-serif;
     letter-spacing: 0.4em;
     font-size: 20px;
-    color: #732F2F;
+    color: #D9D8D7;
 }
 .argGrid p{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    color: #261417;
+    color: #732F2F;
     margin-left: 20%;
     margin-right: 20%;
+}
+.countUp {
+    font-size: 500%;
+    font-family: 'Val', sans-serif;
+    color: #D9D8D7;
 }
 
 @media (max-width: 768px) {
@@ -36,6 +45,9 @@
         font-size: 200%;
         margin-left: 10%;
         margin-right: 10%;
+    }
+    .arg img{
+        width: 70%;
     }
     .argQuote{
         font-size: 150%;

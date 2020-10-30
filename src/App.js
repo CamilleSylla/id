@@ -7,7 +7,7 @@ import Home from './Pages/Home/Home';
 //component
 import Nav from './Components/Nav/Nav'
 //rooter
-import { BrowserRouter as Rooter, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import Footer from './Components/Footer/Footer';
 import {
   CSSTransition,
@@ -18,7 +18,6 @@ import Ecom from './Pages/Services/Ecommerce/Ecom';
 import Comp from './Pages/Services/Complexe/Complexe';
 import Graph from './Pages/Services/Graph/Graph';
 import Supp from './Pages/Services/Supp/Supp'
-import NavBot from './Pages/Services/NavBot/NavBot';
 import Contact from './Pages/Contact/Contact';
 function App() {
 
@@ -52,7 +51,6 @@ function App() {
                   <Route path={`${url}/complexe`} component={Comp} />
                   <Route path={`${url}/graphisme`} component={Graph} />
                   <Route path={`${url}/bureautique`} component={Supp} />
-                  <NavBot />
                 </>
               )} />
               <Footer />
