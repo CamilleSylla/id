@@ -2,7 +2,7 @@ import React from 'react';
 
 import Arrow from '../../../assets/icon/Arrow.svg'
 import Check from '../../../assets/icon/checked.svg'
-
+import Sign from '../../../assets/icon/IconicDevSign.svg';
 import './Complexe.css'
 import NavBot from '../NavBot/NavBot';
 
@@ -12,12 +12,15 @@ export default function Comp() {
         <div className="ecom">
             <div className="ecom-intro">
                 <div className="ecom-intro-text">
+                <div className="ecom-intro-logo">
+                        <img src={Sign} alt="arrow" className="idlog"/>
+                    </div>
                     <h1>donnez naissance a vos idees</h1>
                     <p>
                         Votre projet est porteur mais réalisable uniquement sur mesure ? Pas de problème.
                     </p>
                     <div className="ecom-intro-icon">
-                        <img src={Arrow} alt="arrow" />
+                    <a href="#desc2"><img src={Arrow} alt="arrow" /></a>
                     </div>
                 </div>
                 <div className="comp-intro-img">
@@ -27,7 +30,7 @@ export default function Comp() {
             </div>
             <NavBot />
             <div className="ecom-desc">
-                <div className="ecom-desc-txt">
+                <div className="ecom-desc-txt" id="desc2">
                     <p>
                         Cela fait un moment que vous voulez concevoir le projet de vos rêves.
                         Nous mettrons à votre disposition nos meilleurs experts afin de donner vie à votre projet.
@@ -71,11 +74,11 @@ export default function Comp() {
                             <div className="techno-grid">
                                 <div className="bref-item">
                                     <img src={Check} alt="checked" style={{ width: "15%" }} />
-                                    <p>Temps de chargement raccourcis</p>
+                                    <p>Adaptation complète</p>
                                 </div>
                                 <div className="bref-item">
                                     <img src={Check} alt="checked" style={{ width: "15%" }} />
-                                    <p>Une vitrine adapter à tout écran</p>
+                                    <p>Étude des meilleures solutions pour votre projet</p>
                                 </div>
                                 <div className="bref-item">
                                     <img src={Check} alt="checked" style={{ width: "15%" }} />
@@ -83,11 +86,11 @@ export default function Comp() {
                                 </div>
                                 <div className="bref-item">
                                     <img src={Check} alt="checked" style={{ width: "15%" }} />
-                                    <p>Une etudes de réferencement poussé</p>
+                                    <p>Accompagnement après livraison</p>
                                 </div>
                                 <div className="bref-item">
                                     <img src={Check} alt="checked" style={{ width: "15%" }} />
-                                    <p>Renforcera votre image de marque</p>
+                                    <p>Performances optimisées</p>
                                 </div>
                             </div>
                         </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Sign from '../../../assets/icon/IconicDevSign.svg';
 import Arrow from '../../../assets/icon/Arrow.svg'
 import Check from '../../../assets/icon/checked.svg'
 
@@ -12,12 +12,15 @@ export default function Graph() {
         <div className="ecom">
             <div className="ecom-intro">
                 <div className="ecom-intro-text">
+                <div className="ecom-intro-logo">
+                        <img src={Sign} alt="arrow" className="idlog"/>
+                    </div>
                     <h1>Imposez votre style</h1>
                     <p>
                         Démarquez-vous de la concurrence en ayant une identité visuelle à la hauteur de vos ambitions.
                     </p>
                     <div className="ecom-intro-icon">
-                        <img src={Arrow} alt="arrow" />
+                    <a href="#desc4"><img src={Arrow} alt="arrow" /></a>
                     </div>
                 </div>
                 <div className="graph-intro-img">
@@ -27,7 +30,7 @@ export default function Graph() {
             </div>
             <NavBot />
             <div className="ecom-desc">
-                <div className="ecom-desc-txt">
+                <div className="ecom-desc-txt" id="desc4">
                     <p>
                         Que ce soit pour attirer l'attention, augmenter la fidélisation mais aussi
                         assurer sa popularité sur et en dehors d'internet, votre identité visuelle
@@ -73,23 +76,19 @@ export default function Graph() {
                             <div className="techno-grid">
                                 <div className="bref-item">
                                     <img src={Check} alt="checked" style={{ width: "15%" }} />
-                                    <p>Mettre en avant vos produits.</p>
+                                    <p>Design moderne et cohérent.</p>
                                 </div>
                                 <div className="bref-item">
                                     <img src={Check} alt="checked" style={{ width: "15%" }} />
-                                    <p> Optimisé pour vos produits.</p>
+                                    <p> Visuelle inoubliable.</p>
                                 </div>
                                 <div className="bref-item">
                                     <img src={Check} alt="checked" style={{ width: "15%" }} />
-                                    <p>Filtre performant.</p>
+                                    <p>Couleurs impactantes</p>
                                 </div>
                                 <div className="bref-item">
                                     <img src={Check} alt="checked" style={{ width: "15%" }} />
-                                    <p> Paiement securisé.</p>
-                                </div>
-                                <div className="bref-item">
-                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
-                                    <p>Cohérence graphique.</p>
+                                    <p>Parfait pour vos réseaux</p>
                                 </div>
                             </div>
                         </div>

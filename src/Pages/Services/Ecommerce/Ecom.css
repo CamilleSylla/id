@@ -72,7 +72,6 @@
         text-align: center;
     }
     .ecom-intro-text h1{
-        margin-top: 20%;
         margin-left: 5%;
         margin-right: 5%;
         font-size: 190%;
@@ -91,7 +90,7 @@
         text-align: center;
     }
 }
-@media (orientation: landscape) and (max-width : 1200px) {
+@media (orientation: landscape) and (max-height : 300px) {
     .ecom-intro {
         display: block;
         height: auto;

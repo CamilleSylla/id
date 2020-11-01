@@ -6,6 +6,10 @@
     background-size: cover;
 }
 
+.ecom-intro-logo .idlog{
+    width: 60%;
+}
+
 .tech {
     display: grid;
     grid-template-columns: repeat(5, 1fr);

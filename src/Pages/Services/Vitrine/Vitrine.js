@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+import Sign from '../../../assets/icon/IconicDevSign.svg';
 import './Vitrine.css'
 import Arrow from '../../../assets/icon/Arrow.svg'
 import Check from '../../../assets/icon/checked.svg'
@@ -11,12 +11,15 @@ export default function Vitrine() {
         <div className="vitrine">
             <div className="vitrine-intro">
                 <div className="vitrine-intro-text">
+                <div className="ecom-intro-logo">
+                        <img src={Sign} alt="arrow" className="idlog"/>
+                    </div>
                     <h1>Creation de sites internet vitrines</h1>
                     <p>
                         Faites de votre projet le reflet de votre image tout en vous démarquant sur Internet.
                     </p>
                     <div className="vitrine-intro-icon">
-                        <img src={Arrow} alt="arrow" />
+                        <a href="#desc"><img src={Arrow} alt="arrow"/></a>
                     </div>
                 </div>
                 <div className="vitrine-intro-img">
@@ -28,7 +31,7 @@ export default function Vitrine() {
                 <NavBot />
             </div>
             <div className="vitrine-desc">
-                <div className="vitrine-desc-txt">
+                <div className="vitrine-desc-txt" id="desc">
                     <p>
                         Prestataire de services, association, commerçant etc... ,
                         votre image sur Internet doit inspirer confiance à vos
@@ -89,23 +92,23 @@ export default function Vitrine() {
                         <div className="techno">
                             <div className="techno-grid">
                                 <div className="bref-item">
-                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <img src={Check} alt="checked"/>
                                     <p>Temps de chargement raccourci</p>
                                 </div>
                                 <div className="bref-item">
-                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <img src={Check} alt="checked" />
                                     <p>Un site adapté à tout écran</p>
                                 </div>
                                 <div className="bref-item">
-                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <img src={Check} alt="checked"/>
                                     <p>Un design et une ergonimie moderne</p>
                                 </div>
                                 <div className="bref-item">
-                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <img src={Check} alt="checked"/>
                                     <p>Une etude de référencement poussée</p>
                                 </div>
                                 <div className="bref-item">
-                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <img src={Check} alt="checked"  />
                                     <p>Renforcer votre image de marque</p>
                                 </div>
                             </div>

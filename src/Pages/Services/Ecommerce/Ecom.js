@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Sign from '../../../assets/icon/IconicDevSign.svg';
 import Arrow from '../../../assets/icon/Arrow.svg'
 import Check from '../../../assets/icon/checked.svg'
 
@@ -12,12 +12,15 @@ export default function Ecom() {
         <div className="ecom">
             <div className="ecom-intro">
                 <div className="ecom-intro-text">
+                <div className="ecom-intro-logo">
+                        <img src={Sign} alt="arrow" className="idlog"/>
+                    </div>
                     <h1>Conception de sites e-commerce </h1>
                     <p>
                         Augmentez votre chiffre d'affaires en vous déployant sur le web
                     </p>
                     <div className="ecom-intro-icon">
-                        <img src={Arrow} alt="arrow" />
+                    <a href="#desc3"><img src={Arrow} alt="arrow" /></a>
                     </div>
                 </div>
                 <div className="ecom-intro-img">
@@ -27,7 +30,7 @@ export default function Ecom() {
             </div>
             <NavBot/>
             <div className="ecom-desc">
-                <div className="ecom-desc-txt">
+                <div className="ecom-desc-txt" id="desc3">
                     <p>
                         Un e-commerce doit posséder un design et une ergonomie qui
                         permet aux utilisateurs de trouver rapidement les produits

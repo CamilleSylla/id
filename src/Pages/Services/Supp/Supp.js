@@ -1,19 +1,20 @@
 import React from 'react';
 
-import Arrow from '../../../assets/icon/Arrow.svg'
-import Check from '../../../assets/icon/checked.svg'
+import Arrow from '../../../assets/icon/Arrow.svg';
+import Check from '../../../assets/icon/checked.svg';
 
-import Html from '../../../assets/img/icons/html-5.svg'
-import Css from '../../../assets/img/icons/css.svg'
-import Js from '../../../assets/img/icons/javascript.svg'
-import Wp from '../../../assets/img/icons/wordpress.svg'
-import ReactJs from '../../../assets/img/icons/ReactJS.svg'
-import Git from '../../../assets/img/icons/github.svg'
-import MyAdmin from '../../../assets/img/icons/MyAdmin.svg'
-import Webpack from '../../../assets/img/icons/webpack.svg'
-import NodeJs from '../../../assets/img/icons/Node.svg'
-import Psql from '../../../assets/img/icons/Psql.svg'
-import Fire from '../../../assets/img/icons/Fire.svg'
+import Html from '../../../assets/img/icons/html-5.svg';
+import Css from '../../../assets/img/icons/css.svg';
+import Js from '../../../assets/img/icons/javascript.svg';
+import Wp from '../../../assets/img/icons/wordpress.svg';
+import ReactJs from '../../../assets/img/icons/ReactJS.svg';
+import Git from '../../../assets/img/icons/github.svg';
+import MyAdmin from '../../../assets/img/icons/MyAdmin.svg';
+import Webpack from '../../../assets/img/icons/webpack.svg';
+import NodeJs from '../../../assets/img/icons/Node.svg';
+import Psql from '../../../assets/img/icons/Psql.svg';
+import Fire from '../../../assets/img/icons/Fire.svg';
+import Sign from '../../../assets/icon/IconicDevSign.svg';
 
 import './Supp.css'
 import NavBot from '../NavBot/NavBot';
@@ -24,12 +25,15 @@ export default function Supp() {
         <div className="ecom">
             <div className="ecom-intro">
                 <div className="ecom-intro-text">
+                <div className="ecom-intro-logo">
+                        <img src={Sign} alt="arrow" className="idlog"/>
+                    </div>
                     <h1>nos connaissances a disposition de votre equipe</h1>
                     <p>
                         Renforcez votre équipe sur vos projet.
                     </p>
                     <div className="ecom-intro-icon">
-                        <img src={Arrow} alt="arrow" />
+                    <a href="#desc5"><img src={Arrow} alt="arrow" /></a>
                     </div>
                 </div>
                 <div className="supp-intro-img">
@@ -37,9 +41,9 @@ export default function Supp() {
                     </div>
                 </div>
             </div>
-            <NavBot/>
+            <NavBot />
             <div className="ecom-desc">
-                <div className="ecom-desc-txt">
+                <div className="ecom-desc-txt" id="desc5">
                     <p>
                         Vous souhaitez démarrer un projet web, le faire évoluer,
                         avec une équipe que vous composez à 100%. Nos développeurs
@@ -50,50 +54,46 @@ export default function Supp() {
                         <div className="arguments">
                             <h5> Nos technologies principales :</h5>
                             <div className="tech">
-                                <img src={Html}/>
-                                <img src={Css}/>
-                                <img src={Js}/>
-                                <img src={ReactJs}/>
-                                <img src={Wp}/>
-                                <img src={Fire}/>
-                                <img src={NodeJs}/>
-                                <img src={Psql}/>
-                                <img src={MyAdmin}/>
-                                <img src={Webpack}/>
+                                <img src={Html} />
+                                <img src={Css} />
+                                <img src={Js} />
+                                <img src={ReactJs} />
+                                <img src={Wp} />
+                                <img src={Fire} />
+                                <img src={NodeJs} />
+                                <img src={Psql} />
+                                <img src={MyAdmin} />
+                                <img src={Webpack} />
                             </div>
                             <h5> Developpeur disponible :</h5>
                             <div className="tech">
-                                <div className="tech-cards">
-                                <img src={Git}/>
-                                <h1> Camille Sylla</h1>
+                                <div className="tech-cards"
+                                    style={{ cursor: 'pointer' }}
+                                    onClick={(e) => (window.open('https://github.com/CamilleSylla'))}>
+                                    <img src={Git} />
+                                    <h1> Camille Sylla</h1>
                                 </div>
-                                <div className="tech-cards">
-                                <img src={Git}/>
-                                <h1> Malahmine Bah</h1>
+                                <div className="tech-cards"
+                                    style={{ cursor: 'pointer' }}
+                                    onClick={(e) => (window.open('https://github.com/malaprince11'))}>
+                                    <img src={Git} />
+                                    <h1> Malahmine Bah</h1>
                                 </div>
                             </div>
                         </div>
                         <div className="techno">
                             <div className="techno-grid">
                                 <div className="bref-item">
-                                    <img src={Check} alt="checked"  style={{ width: "15%" }}/>
-                                    <p>Temps de chargement raccourcis</p>
+                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <p>Disponible à 100%</p>
                                 </div>
                                 <div className="bref-item">
-                                    <img src={Check} alt="checked"  style={{ width: "15%" }}/>
-                                    <p>Une vitrine adapter à tout écran</p>
+                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <p>Remote possible</p>
                                 </div>
                                 <div className="bref-item">
-                                    <img src={Check} alt="checked"  style={{ width: "15%" }}/>
-                                    <p>Un design et une ergonimie moderne</p>
-                                </div>
-                                <div className="bref-item">
-                                    <img src={Check} alt="checked"  style={{ width: "15%" }}/>
-                                    <p>Une etudes de réferencement poussé</p>
-                                </div>
-                                <div className="bref-item">
-                                    <img src={Check} alt="checked" style={{ width: "15%" }}/>
-                                    <p>Renforcera votre image de marque</p>
+                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <p>Relation humaine</p>
                                 </div>
                             </div>
                         </div>
