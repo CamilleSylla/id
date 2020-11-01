@@ -16,15 +16,7 @@ export default function Nav({ show }) {
 
         <div className="navbar">
             <div className="nav-page">
-                <NavLink className="nav-link"
-                    exact
-                    activeStyle={{
-                        color: "#261417"
-                    }}
-                    to='/'
-                >
-                    <p >Accueil</p>
-                </NavLink>
+                    <a href="/">Accueil</a>
 
                 <div class="dropdown">
                     <span>Services</span>
@@ -71,7 +63,7 @@ export default function Nav({ show }) {
                         </NavLink>
                     </div>
                 </div>
-                <p className="nav-contact" onClick={() => show({ show: true })}>Contact</p>
+                <a className="nav-contact" onClick={() => show({ show: true })}>Contact</a>
             </div>
             <div className="nav-icons">
 
