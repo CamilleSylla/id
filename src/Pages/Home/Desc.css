@@ -112,9 +112,36 @@
     }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-
-    .desc {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+    .desc{
+        height: auto;
+        display: block;
+        background-color: #732F2F;
+        padding-bottom: 5%;
     }
+    .descBtn {
+        color: #D9D8D7;
+        border: 5px solid #D9D8D7;
+        text-align: center;
+    }
+    
+    .descTitles {
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+        
+    }
+    .descTitles h3 {
+        color: #D9D8D7;
+    }
+    .descTitles p{
+        color: #BF4539;
+        font-size: 150%;
+    }
+    .descDesc {
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+        color: #D9D8D7;;
+    }
+
 }

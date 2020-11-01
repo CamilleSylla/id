@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 //assets
 import FB from '../../assets/icon/fb.svg'
@@ -38,16 +39,23 @@ export default function Footer({ show }) {
             </div>
             <div className="bottomMenu">
                 <p>
+                    <Link to='/'>
                     Accueil
+                    </Link>
+                    
                 </p>
                 <p>
+                <Link to="/services/vitrine">
                     Services
+                    </Link>
                 </p>
-                <p>
+                <p onClick={() => show({ show: true })}>
                     Contact
                 </p>
                 <p>
+                <Link to='/'>
                     Mentions Légales
+                    </Link>
                 </p>
                 <p className='footerBtn' onClick={() => show({ show: true })}> Devis Gratuit</p>
             </div>

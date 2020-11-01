@@ -22,6 +22,7 @@
     display: grid;
     text-align: right;
     grid-template-columns: repeat(10, 1fr);
+    cursor: pointer;
 }
 .footerSocial img{
     margin-top: 100%;
@@ -32,6 +33,14 @@
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     font-family: 'Montserrat', sans-serif;
+}
+.bottomMenu a{
+    text-decoration: none;
+    color: black;
+}
+.bottomMenu {
+    text-decoration: none;
+    cursor: pointer;
 }
 .footerBtn{
     grid-column: 9;
