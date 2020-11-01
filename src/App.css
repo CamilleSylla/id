@@ -2,6 +2,9 @@
   text-align: center;
   background-color: #D9D8D7;
 }
+body{
+  overflow-x: hidden;
+}
 .item-appear,
 .item-enter {
   opacity: 0;

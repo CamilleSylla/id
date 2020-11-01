@@ -54,7 +54,7 @@ export default function NavBot() {
             <p>
                 <NavLink 
                 className="bottom-nav"
-                to="/services/bureautique"
+                to="/services/freelancing"
                 activeStyle={{
                     fontWeight: "bold",
                     color: "#261417"

@@ -50,7 +50,7 @@ function App() {
                   <Route path={`${url}/ecommerce`} component={Ecom} />
                   <Route path={`${url}/complexe`} component={Comp} />
                   <Route path={`${url}/graphisme`} component={Graph} />
-                  <Route path={`${url}/bureautique`} component={Supp} />
+                  <Route path={`${url}/freelancing`} component={Supp} />
                 </>
               )} />
               <Footer />

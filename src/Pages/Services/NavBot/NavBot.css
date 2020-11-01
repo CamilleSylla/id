@@ -26,17 +26,6 @@ a.bottom-nav{
 }
 @media (max-width: 1300px) {
     .navBot{
-        height: auto;
-        margin: auto;
-        opacity: 1;
-        display: block;
-    }
-    a.bottom-nav{
-        text-align: center;
-        font-size: 70%;
-    }
-    .navBot p{
-        margin-top: 2%;
-        font-size: x-large;
+        display: none;
     }
 }

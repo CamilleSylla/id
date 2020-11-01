@@ -25,15 +25,52 @@ export default function Nav({ show }) {
                 >
                     <p >Accueil</p>
                 </NavLink>
-                <NavLink className="nav-link"
-                    activeStyle={{
-                        color: "#261417"
-                    }}
-                    to='/services'
-                >
-                    <p>Services</p>
-                </NavLink>
 
+                <div class="dropdown">
+                    <span>Services</span>
+                    <div class="dropdown-content">
+                        <NavLink className="nav-link"
+                            activeStyle={{
+                                color: "#261417"
+                            }}
+                            to='/services/vitrine'
+                        >
+                            <p>Site Vitrine</p>
+                        </NavLink>
+                        <NavLink className="nav-link"
+                            activeStyle={{
+                                color: "#261417"
+                            }}
+                            to='/services/ecommerce'
+                        >
+                            <p>Site E-commerce</p>
+                        </NavLink>
+                        <NavLink className="nav-link"
+                            activeStyle={{
+                                color: "#261417"
+                            }}
+                            to='/services/complexe'
+                        >
+                            <p>Solution web complexe</p>
+                        </NavLink>
+                        <NavLink className="nav-link"
+                            activeStyle={{
+                                color: "#261417"
+                            }}
+                            to='/services/graphisme'
+                        >
+                            <p>Conception graphique</p>
+                        </NavLink>
+                        <NavLink className="nav-link"
+                            activeStyle={{
+                                color: "#261417"
+                            }}
+                            to='/services/freelancing'
+                        >
+                            <p>Freelancing</p>
+                        </NavLink>
+                    </div>
+                </div>
                 <p className="nav-contact" onClick={() => show({ show: true })}>Contact</p>
             </div>
             <div className="nav-icons">
