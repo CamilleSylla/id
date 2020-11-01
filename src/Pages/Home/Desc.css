@@ -111,3 +111,10 @@
         color: #D9D8D7;
     }
 }
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+    .desc {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

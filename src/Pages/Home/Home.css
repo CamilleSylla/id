@@ -127,3 +127,34 @@
         cursor: pointer;
     }
 }
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    .home{
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        overflow: hidden;
+    }
+    .introTxt {
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+    }
+    .introTxt h1 {
+        font-size: 300%;
+        
+    }
+    .introTxt p {
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    .servicesBtn {
+        margin-bottom: 5%;
+        cursor: pointer;
+    }
+    .devisBtn{
+        margin-bottom: 15%;
+        cursor: pointer;
+    }
+
+}

@@ -85,23 +85,23 @@ export default function Ecom() {
                         <div className="techno">
                             <div className="techno-grid">
                                 <div className="bref-item">
-                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <img src={Check} alt="checked" />
                                     <p>Mettre en avant vos produits.</p>
                                 </div>
                                 <div className="bref-item">
-                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <img src={Check} alt="checked" />
                                     <p> Référencement optimisé pour vos produits.</p>
                                 </div>
                                 <div className="bref-item">
-                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <img src={Check} alt="checked" />
                                     <p>Filtre performant.</p>
                                 </div>
                                 <div className="bref-item">
-                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <img src={Check} alt="checked" />
                                     <p> Paiement securisé.</p>
                                 </div>
                                 <div className="bref-item">
-                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <img src={Check} alt="checked" />
                                     <p>Cohérence graphique.</p>
                                 </div>
                             </div>

@@ -73,23 +73,23 @@ export default function Comp() {
                         <div className="techno">
                             <div className="techno-grid">
                                 <div className="bref-item">
-                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <img src={Check} alt="checked"  />
                                     <p>Adaptation complète</p>
                                 </div>
                                 <div className="bref-item">
-                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <img src={Check} alt="checked"  />
                                     <p>Étude des meilleures solutions pour votre projet</p>
                                 </div>
                                 <div className="bref-item">
-                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <img src={Check} alt="checked"  />
                                     <p>Un design et une ergonimie moderne</p>
                                 </div>
                                 <div className="bref-item">
-                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <img src={Check} alt="checked"  />
                                     <p>Accompagnement après livraison</p>
                                 </div>
                                 <div className="bref-item">
-                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <img src={Check} alt="checked"  />
                                     <p>Performances optimisées</p>
                                 </div>
                             </div>

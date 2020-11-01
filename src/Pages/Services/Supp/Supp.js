@@ -84,15 +84,15 @@ export default function Supp() {
                         <div className="techno">
                             <div className="techno-grid">
                                 <div className="bref-item">
-                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <img src={Check} alt="checked" />
                                     <p>Disponible à 100%</p>
                                 </div>
                                 <div className="bref-item">
-                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <img src={Check} alt="checked" />
                                     <p>Remote possible</p>
                                 </div>
                                 <div className="bref-item">
-                                    <img src={Check} alt="checked" style={{ width: "15%" }} />
+                                    <img src={Check} alt="checked" />
                                     <p>Relation humaine</p>
                                 </div>
                             </div>

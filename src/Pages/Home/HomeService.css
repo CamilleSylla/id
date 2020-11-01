@@ -112,3 +112,20 @@
         grid-row: 3;
     }
 }
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    .home-service {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-image: none;
+    }
+    .home-Titles{
+        text-align: center;
+        margin-top: 10%;
+    }
+    .cardCont {
+        width: 80%;
+    }
+    .ecom-intro-logo .idlog{
+        width: 20%;
+    }
+}

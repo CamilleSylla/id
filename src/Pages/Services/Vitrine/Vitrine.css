@@ -172,11 +172,14 @@
         background-color: #EAF2AE;
         border-radius: 5px;
     }
+    .bref-item p {
+        margin-left: 0%;
+    }
 }
 .navigation {
     display: block;
 }
-@media (orientation: landscape) and (max-height: 300px) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
     .vitrine-intro {
         display: block;
         height: auto;
@@ -222,7 +225,8 @@
     }
     .techno-grid {
         margin-left: 0%;
-        display: block;
+        display: flex;
+        flex-direction: column;
         width: 100%;
     }
     .bref-item{
@@ -231,6 +235,9 @@
         padding: 3%;
         background-color: #EAF2AE;
         border-radius: 5px;
+    }
+    .bref-item p {
+        margin-left: 5%;
     }
 }
 .navigation {
