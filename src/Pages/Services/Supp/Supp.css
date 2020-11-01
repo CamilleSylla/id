@@ -82,4 +82,7 @@
     .ecom-intro-logo .idlog{
         width: 40%;
     }
+    .supp-intro-img{
+        display: none;
+    }
   }
