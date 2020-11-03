@@ -2,7 +2,6 @@ import React from 'react';
 
 
 //style
-import './Nav.css'
 
 //rooter
 import { Link, NavLink } from 'react-router-dom';

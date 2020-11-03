@@ -2,7 +2,6 @@ import React from 'react';
 
 import emailjs from 'emailjs-com'
 
-import './Contact.css'
 import Close from '../../assets/icon/close.svg'
 
 

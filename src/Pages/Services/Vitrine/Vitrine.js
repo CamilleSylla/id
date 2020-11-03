@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Sign from '../../../assets/icon/IconicDevSign.svg';
-import './Vitrine.css'
 import Arrow from '../../../assets/icon/Arrow.svg'
 import Check from '../../../assets/icon/checked.svg'
 import NavBot from '../NavBot/NavBot'

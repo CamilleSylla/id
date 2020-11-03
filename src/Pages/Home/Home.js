@@ -4,7 +4,6 @@ import Desc from './Desc';
 
 
 //style
-import './Main.css'
 import HomeService from './HomeService';
 
 //component

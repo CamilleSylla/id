@@ -1,6 +1,5 @@
 import React from 'react'
 
-import './HomeService.css'
 
 export default function HomeService() {
 

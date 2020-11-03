@@ -16,7 +16,6 @@ import Psql from '../../../assets/img/icons/Psql.svg';
 import Fire from '../../../assets/img/icons/Fire.svg';
 import Sign from '../../../assets/icon/IconicDevSign.svg';
 
-import './Supp.css'
 import NavBot from '../NavBot/NavBot';
 
 export default function Supp() {
@@ -54,16 +53,16 @@ export default function Supp() {
                         <div className="arguments">
                             <h5> Nos technologies principales :</h5>
                             <div className="tech">
-                                <img src={Html} />
-                                <img src={Css} />
-                                <img src={Js} />
-                                <img src={ReactJs} />
-                                <img src={Wp} />
-                                <img src={Fire} />
-                                <img src={NodeJs} />
-                                <img src={Psql} />
-                                <img src={MyAdmin} />
-                                <img src={Webpack} />
+                                <img src={Html} alt="html"/>
+                                <img src={Css} alt="Css"/>
+                                <img src={Js} alt="Javascript"/>
+                                <img src={ReactJs} alt="ReactJs"/>
+                                <img src={Wp} alt="Wordpress"/>
+                                <img src={Fire} alt="Firebase"/>
+                                <img src={NodeJs} alt="Node.js"/>
+                                <img src={Psql} alt="Psql"/>
+                                <img src={MyAdmin} alt="phpMyAdmin"/>
+                                <img src={Webpack} alt="webpack"/>
                             </div>
                             <h5> Developpeur disponible :</h5>
                             <div className="tech">

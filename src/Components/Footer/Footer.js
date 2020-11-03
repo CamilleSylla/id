@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import FB from '../../assets/icon/fb.svg'
 import IG from '../../assets/icon/ig.svg'
 
-import './Footer.css'
+
 
 export default function Footer({ show }) {
 
